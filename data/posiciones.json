@@ -1,0 +1,17 @@
+[
+    {
+      "posicion": 1,
+      "equipo": "Equipo A",
+      "puntos": 15,
+      "partidos_jugados": 5,
+      "diferencia_goles": 10
+    },
+    {
+      "posicion": 2,
+      "equipo": "Equipo B",
+      "puntos": 12,
+      "partidos_jugados": 5,
+      "diferencia_goles": 8
+    }
+]
+
