@@ -1,8 +1,5 @@
 document.addEventListener("DOMContentLoaded", function () {
     cargarTablaPosiciones();
-    cargarProximosPartidos();
-    cargarTablaGoleadores();
-    cargarNominadeEquipos();
 });
 
 function cargarJSON(url, callback) {
@@ -13,7 +10,7 @@ function cargarJSON(url, callback) {
 }
 
 function cargarTablaPosiciones() {
-    cargarJSON("data/posiciones.json", function (equipos) {
+    cargarJSON("/data/posiciones.json", function (equipos) {
         let tabla = document.querySelector("#tabla-posiciones tbody");
         tabla.innerHTML = "";
         equipos.forEach((equipo, index) => {
@@ -28,12 +25,3 @@ function cargarTablaPosiciones() {
         });
     });
 }
-
-fetch("data/posiciones.json")
-    .then(response => response.text()) // Convertimos a texto en lugar de JSON
-    .then(text => {
-        console.log("Contenido recibido:", text); // Ver qué está recibiendo el fetch
-        return JSON.parse(text); // Intentar parsear manualmente
-    })
-    .then(data => console.log("JSON parseado correctamente:", data))
-    .catch(error => console.error("Error al cargar JSON:", error));
