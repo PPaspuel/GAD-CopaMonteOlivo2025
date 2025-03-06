@@ -10,7 +10,7 @@ function cargarJSON(url, callback) {
 }
 
 function cargarNominadeEquipos() {
-    cargarJSON("/data/equipos.json", function (equipos) {
+    cargarJSON("data/equipos.json", function (equipos) {
         let listaEquipos = document.querySelector("#lista-equipos");
         listaEquipos.innerHTML = ""; // Limpiar la lista
 
