@@ -10,7 +10,7 @@ function cargarJSON(url, callback) {
 }
 
 function cargarTablaPosiciones() {
-    cargarJSON("data/posiciones.json", function (equipos) {
+    cargarJSON("../data/posiciones.json", function (equipos) {
         let tabla = document.querySelector("#tabla-posiciones tbody");
         tabla.innerHTML = "";
         equipos.forEach((equipo, index) => {
