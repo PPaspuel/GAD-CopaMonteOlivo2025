@@ -1,27 +1,69 @@
 document.addEventListener("DOMContentLoaded", function () {
-    cargarTablaPosiciones();
-});
-
-function cargarJSON(url, callback) {
-    fetch(url)
-        .then(response => response.json())
-        .then(data => callback(data))
-        .catch(error => console.error("Error cargando " + url, error));
-}
-
-function cargarTablaPosiciones() {
-    cargarJSON("../data/posiciones.json", function (equipos) {
-        let tabla = document.querySelector("#tabla-posiciones tbody");
-        tabla.innerHTML = "";
-        equipos.forEach((equipo, index) => {
-            let fila = `<tr>
-                <td>${index + 1}</td>
-                <td>${equipo.nombre_equipo}</td>
-                <td>${equipo.puntos}</td>
-                <td>${equipo.partidos_jugados}</td>
-                <td>${equipo.diferencia_goles}</td>
-            </tr>`;
-            tabla.innerHTML += fila;
+    // Cargar Serie A por defecto
+    cargarTablaPosiciones('serie-a');
+    
+    // Event listeners para los botones
+    document.querySelectorAll('.boton-serie').forEach(boton => {
+        boton.addEventListener('click', function() {
+            // Remover clase active de todos los botones
+            document.querySelectorAll('.boton-serie').forEach(b => b.classList.remove('active'));
+            // Agregar clase active al botón clickeado
+            this.classList.add('active');
+            // Cargar la serie correspondiente
+            const serie = this.dataset.serie;
+            cargarTablaPosiciones(serie);
         });
     });
+});
+
+async function cargarTablaPosiciones(serie) {
+    try {
+        const rutaJson = `../data/posiciones-${serie}.json`;
+        const response = await fetch(rutaJson);
+        const data = await response.json();
+        renderizarTabla(data);
+    } catch (error) {
+        console.error('Error cargando datos:', error);
+        document.getElementById('contenedor-tabla').innerHTML = 
+            '<p class="error">Error al cargar los datos de la tabla</p>';
+    }
+}
+
+function renderizarTabla(data) {
+    const tablaHTML = `
+        <table class="tabla-posiciones">
+            <thead>
+                <tr>
+                    <th>Posiciones</th>
+                    <th>Equipos</th>
+                    <th>PTS</th>
+                    <th>PJ</th>
+                    <th>PG</th>
+                    <th>PP</th>
+                    <th>PE</th>
+                    <th>GF</th>
+                    <th>GC</th>
+                    <th>DG</th>
+                </tr>
+            </thead>
+            <tbody>
+                ${data.equipos.map(equipo => `
+                    <tr ${equipo.posicion === 16 ? 'class="zona-eliminacion"' : ''}>
+                        <td>${equipo.posicion}</td>
+                        <td>${equipo.nombre}</td>
+                        <td>${equipo.pts}</td>
+                        <td>${equipo.pj}</td>
+                        <td>${equipo.pg}</td>
+                        <td>${equipo.pp}</td>
+                        <td>${equipo.pe}</td>
+                        <td>${equipo.gf}</td>
+                        <td>${equipo.gc}</td>
+                        <td>${equipo.dg}</td>
+                    </tr>
+                `).join('')}
+            </tbody>
+        </table>
+    `;
+
+    document.getElementById('contenedor-tabla').innerHTML = tablaHTML;
 }

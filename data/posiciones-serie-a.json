@@ -1,0 +1,9 @@
+{
+    "torneo": "SERIE A - FASE INICIAL",
+    "equipos": [
+        {"posicion": 1, "nombre": "4 DECADAS", "pts": 6, "pj": 2, "pg": 2, "pp": 0, "pe": 0, "gf": 3, "gc": 0, "dg": 3},
+        {"posicion": 2, "nombre": "SOLO PANAS", "pts": 6, "pj": 2, "pg": 2, "pp": 0, "pe": 0, "gf": 4, "gc": 2, "dg": 2},
+        {"posicion": 16, "nombre": "PALMEIRAS", "pts": 0, "pj": 2, "pg": 0,"pp": 2, "pe": 0, "gf": 0, "gc": 6, "dg": -6}
+    ]
+}
+

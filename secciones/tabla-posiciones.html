@@ -2,28 +2,22 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/estilos.css">
-    <title>Tabla de Posiciones</title>
+    <title>Tabla de Posiciones Dinámica</title>
+    <link rel="stylesheet" href="../css/posiciones.css">
 </head>
 <body>
-    <main>
-        <section>
-            <h2>Tabla de Posiciones</h2>
-            <table id="tabla-posiciones">
-                <thead>
-                    <tr>
-                        <th>Pos</th>
-                        <th>Equipo</th>
-                        <th>Puntos</th>
-                        <th>Partidos Jugados</th>
-                        <th>Goles</th>
-                    </tr>
-                </thead>
-                <tbody></tbody>
-            </table>
-        </section>
-    </main>
+    <div class="selector-series">
+        <button class="boton-serie" data-serie="serie-a">TODOS</button>
+        <button class="boton-serie active" data-serie="serie-a"disabled>SERIE A</button>
+        <button class="boton-serie" data-serie="serie-b" disabled>SERIE B</button>
+    </div>
+
+    <div class="cabecera-tabla">COPA MONTE OLIVO 2025</div>
+    <div class="conectado-por">Conectada por: ✅ xtrim</div>
+
+    <div id="contenedor-tabla"></div>
+    <div class="marca-empresa">GAD Parroquial Rural Monte Olivo</div>
+
     <script src="../js/posiciones.js"></script>
 </body>
 </html>

@@ -1,0 +1,40 @@
+[
+    {
+        "fecha": "SABADO 7/3",
+        "partidos": [
+            {
+                "hora": "19:00",
+                "local": "ASA Banco del Austro",
+                "visitante": "Deportivo Cuenca",
+                "estadio": "Cuencía | Zapping",
+                "serie": []
+            },
+            {
+                "hora": "14:00",
+                "local": "LDU Quito",
+                "visitante": "Delfín SC",
+                "estadio": "Rodrigo Paz Delgado - Quito",
+                "serie": []
+            }
+        ]
+    },
+    {
+        "fecha": "DOMINGO 8/3",
+        "partidos": [
+            {
+                "hora": "14:00",
+                "local": "LDU Quito",
+                "visitante": "Delfín SC",
+                "estadio": "Rodrigo Paz Delgado - Quito",
+                "serie": []
+            },
+            {
+                "hora": "16:30",
+                "local": "Manta FC",
+                "visitante": "CD El Nacional",
+                "estadio": "JOCAV - Manta",
+                "serie": []
+            }
+        ]
+    }
+]

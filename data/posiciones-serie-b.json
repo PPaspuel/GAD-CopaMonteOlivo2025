@@ -1,0 +1,7 @@
+{
+    "torneo": "SERIE B - FASE INICIAL",
+    "equipos": [
+        {"posicion": 1, "nombre": "EQUIPO B1", "pts": 0, "pj": 0, "pg": 0, "pp": 0, "pe": 0, "gf": 0, "gc": 0, "dg": 0},
+        {"posicion": 2, "nombre": "EQUIPO B2", "pts": 0, "pj": 0, "pg": 0, "pp": 0, "pe": 0, "gf": 0, "gc": 0, "dg": 0}
+    ]
+}

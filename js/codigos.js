@@ -1,39 +1,29 @@
-document.addEventListener("DOMContentLoaded", function () {
-    cargarTablaPosiciones();
-    cargarProximosPartidos();
-    cargarTablaGoleadores();
-    cargarNominadeEquipos();
-});
+document.addEventListener('DOMContentLoaded', function() {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navList = document.querySelector('.nav-list');
+    
+    function toggleMenu() {
+        navList.classList.toggle('active');
+        menuToggle.classList.toggle('active');
+        
+        // Cerrar menú al hacer clic en un enlace (opcional)
+        if (navList.classList.contains('active')) {
+            document.querySelectorAll('.nav-link').forEach(link => {
+                link.addEventListener('click', () => {
+                    navList.classList.remove('active');
+                    menuToggle.classList.remove('active');
+                });
+            });
+        }
+    }
 
-function cargarJSON(url, callback) {
-    fetch(url)
-        .then(response => response.json())
-        .then(data => callback(data))
-        .catch(error => console.error("Error cargando " + url, error));
-}
+    menuToggle.addEventListener('click', toggleMenu);
 
-function cargarTablaPosiciones() {
-    cargarJSON("data/posiciones.json", function (equipos) {
-        let tabla = document.querySelector("#tabla-posiciones tbody");
-        tabla.innerHTML = "";
-        equipos.forEach((equipo, index) => {
-            let fila = `<tr>
-                <td>${index + 1}</td>
-                <td>${equipo.nombre_equipo}</td>
-                <td>${equipo.puntos}</td>
-                <td>${equipo.partidos_jugados}</td>
-                <td>${equipo.diferencia_goles}</td>
-            </tr>`;
-            tabla.innerHTML += fila;
-        });
+    // Cerrar menú al hacer clic fuera de él
+    document.addEventListener('click', function(event) {
+        if (!event.target.closest('.navbar') && navList.classList.contains('active')) {
+            navList.classList.remove('active');
+            menuToggle.classList.remove('active');
+        }
     });
-}
-
-fetch("data/posiciones.json")
-    .then(response => response.text()) // Convertimos a texto en lugar de JSON
-    .then(text => {
-        console.log("Contenido recibido:", text); // Ver qué está recibiendo el fetch
-        return JSON.parse(text); // Intentar parsear manualmente
-    })
-    .then(data => console.log("JSON parseado correctamente:", data))
-    .catch(error => console.error("Error al cargar JSON:", error));
+});
