@@ -1,0 +1,30 @@
+[
+    {
+        "fecha": null,
+        "partidos": [
+            {
+                "fechaCalendario": "8 de Marzo 2025",
+                "etapa": "Primera Etapa",
+                "hora": "16:30",
+                "local": "Manta FC",
+                "visitante": "CD El Nacional",
+                "resultado": "0 - 0",
+                "serie": ["A"]
+            }
+        ]
+    },
+    {
+        "fecha": null,
+        "partidos": [
+            {
+                "fechaCalendario": "9 de Marzo 2025",
+                "etapa": "Primera Etapa",
+                "hora": "16:30",
+                "local": "CD El Nacional",
+                "visitante": "Manta FC",
+                "resultado": "0 - 0",
+                "serie": ["B"]
+            }
+        ]
+    }
+]

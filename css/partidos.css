@@ -17,6 +17,39 @@ h2 {
     margin-bottom: 30px;
 }
 
+/* partidos.css - Añadir estos estilos */
+.filtros-partidos {
+    margin: 20px 0;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.btn-filtro {
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    background: #e0e0e0;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-filtro.active {
+    background: #2c3e50;
+    color: white;
+}
+
+.resultado {
+    color: #27ae60;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.partido-item {
+    position: relative;
+}
+
+/* Mantener los demás estilos existentes */
 /* Estilos de la lista de partidos */
 #lista-partidos {
     list-style: none;
@@ -65,10 +98,10 @@ h2 {
     margin-top: 10px;
 }
 
-.estadio {
+/* .estadio {
     color: #7f8c8d;
     font-size: 0.9em;
-}
+} */
 
 .serie {
     color: #e74c3c;
@@ -79,4 +112,33 @@ h2 {
 .hora {
     color: #27ae60;
     font-weight: bold;
+}
+
+.jornada {
+    color: #7f8c8d;
+    font-size: 0.85em;
+    margin-left: 10px;
+    font-weight: normal;
+}
+
+.fecha-calendario {
+    color: #e74c3c;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.resultado {
+    color: #27ae60;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 8px 0;
+}
+
+.etapa-partido {
+    color: #2c3e50;
+    font-size: 0.9em;
+    margin: 8px 0;
+    font-weight: bold;
+    /*font-style: italic;*/
 }

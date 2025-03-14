@@ -1,0 +1,27 @@
+[
+    {
+        "fecha": "SÁBADO 7/3",
+        "jornada": "Fecha 1",
+        "partidos": [
+            {
+                "hora": "19:00",
+                "local": "ASA Banco del Austro",
+                "visitante": "Deportivo Cuenca",
+                "serie": []
+            }
+        ]
+    },
+
+    {
+        "fecha": "DOMINGO 8/3",
+        "jornada": "Fecha 1",
+        "partidos": [
+            {
+                "hora": "19:00",
+                "local": "ASA Banco del Austro",
+                "visitante": "Deportivo Cuenca",
+                "serie": []
+            }
+        ]
+    }
+]

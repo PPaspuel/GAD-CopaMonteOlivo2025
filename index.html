@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Campeonato de Fútbol GAD</title>
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <header class="header">
         <div class="header-container">
             <div class="logo">
-                <h1>COPA MONTE OLIVO 2025</h1>
+                <a href="index.html" class="logo-link">
+                    <img src="imagenes/LogoCopaMonteOlivo-SinFondo.PNG" alt="COPA MONTE OLIVO 2025" class="logo-image">
+                </a>
             </div>
             
             <nav class="navbar" id="navbar">
@@ -37,16 +40,105 @@
     </header>
 
     <div class="main-image">
-        <img src="imagenes/LogoCopaMonteOlivo-ConFondo.png" alt="LogoCopaMonteOlivo" class="responsive-image">
+        <div class="image-wrapper">
+            <div class="image-overlay"></div>
+            <img src="imagenes/PortadaFacebook-MasCalidad.jpg" alt="LogoCopaMonteOlivo" class="responsive-image">
+            <h2 class="image-text">BIENVENIDOS AL CAMPEONATO</h2>
+            <h2 class="image-text2">"COPA MONTE OLIVO 2025"</h2>
+        </div>
     </div>
 
     <main id="contenido">
-        <!-- Contenido principal aquí -->
+        <!-- Nueva sección de fotos con texto -->
+        <section class="dual-column-section">
+            <div class="content-container">
+                <div class="image-text-card">
+                    <div class="image-container">
+                        <img src="imagenes/PortadaFacebook-MasCalidad.jpg" alt="Equipo 1">
+                    </div>
+                    <div class="text-content">
+                        <h3>Equipo Estrella</h3>
+                        <p>Descubre al equipo líder del campeonato con su impresionante rendimiento esta temporada.</p>
+                    </div>
+                </div>
+
+                <div class="image-text-card reverse">
+                    <div class="image-container">
+                        <img src="imagenes/Logo3CopaMonteOlivo.png" alt="Equipo 2">
+                    </div>
+                    <div class="text-content">
+                        <h3>Revelación del Torneo</h3>
+                        <p>Conoce al equipo sorpresa que está dando de qué hablar en esta edición del campeonato.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Nueva sección de carrusel -->
+        <section class="carousel-section">
+            <h2 class="carousel-title">Momentos Destacados</h2>
+            <div class="carousel-container">
+                <div class="carousel-slide active">
+                    <img src="imagenes/PortadaFacebook-MasCalidad.jpg" alt="Momento 1">
+                </div>
+                <div class="carousel-slide">
+                    <img src="imagenes/Logo3CopaMonteOlivo.png" alt="Momento 2">
+                </div>
+                <div class="carousel-slide">
+                    <img src="imagenes/PortadaFacebook-MasCalidad.jpg" alt="Momento 3">
+                </div>
+                
+                <!-- Controles del carrusel -->
+                <button class="carousel-btn prev">&#10094;</button>
+                <button class="carousel-btn next">&#10095;</button>
+            </div>
+        </section>
     </main>
 
     <footer class="footer">
-        <div class="footer-content">
-            <p>Pie de página - Todos los derechos reservados © 2025</p>
+        <div class="footer-container">
+            <!-- Sección de información del campeonato -->
+            <div class="footer-column">
+                <img src="imagenes/LogoCopaMonteOlivo-SinFondo.PNG" alt="Logo Copa Monte Olivo" class="footer-logo">
+                <p class="footer-description">
+                    Campeonato organizado por el GAD Monte Olivo para promover el deporte y la sana competencia entre comunidades.
+                </p>
+            </div>
+    
+            <!-- Enlaces rápidos -->
+            <div class="footer-column">
+                <h4 class="footer-title">Enlaces Rápidos</h4>
+                <ul class="footer-links">
+                    <li><a href="secciones/tabla-posiciones.html" class="footer-link">Tabla de Posiciones</a></li>
+                    <li><a href="secciones/lista-partidos.html" class="footer-link">Calendario de Partidos</a></li>
+                    <li><a href="secciones/tabla-goleadores.html" class="footer-link">Goleadores</a></li>
+                    <li><a href="secciones/lista-equipos.html" class="footer-link">Equipos Participantes</a></li>
+                </ul>
+            </div>
+    
+            <!-- Información de contacto -->
+            <div class="footer-column">
+                <h4 class="footer-title">Contacto</h4>
+                <ul class="footer-contact">
+                    <li><i class="fas fa-map-marker-alt"></i>Calle Bolivar y Sucre</li>
+                    <li><i class="fas fa-phone"></i>063013340</li>
+                    <li><i class="fas fa-envelope"></i>gpmonteolivo.gob.ec</li>
+                </ul>
+                
+                <!-- Redes Sociales -->
+                <div class="social-media">
+                    <a href="https://www.facebook.com/gadmonteolivo" class="social-link"><i class="fab fa-facebook"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/@gadprmonteolivo2262" class="social-link"><i class="fab fa-youtube"></i></a>
+                    <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Derechos de autor -->
+        <div class="footer-bottom">
+            <p>&copy; 2025 Campeonato Copa Monte Olivo. Todos los derechos reservados.</p>
+            <p>Desarrollado por el Departamento de Deportes GAD Monte Olivo</p>
         </div>
     </footer>
 
