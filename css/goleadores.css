@@ -8,10 +8,10 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background: #fff;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    background-color: #fff;
 }
 
 /* =================== HEADER =================== */
@@ -105,159 +105,92 @@ body {
 }
 
 /* =================== CONTENIDO PRINCIPAL =================== */
-.contenedor-partidos {
-    max-width: 1200px;
-    margin: 2rem auto;
-    padding: 0 1rem;
+#contenedor-tabla {
     flex: 1;
+    padding: 2rem 1rem;
 }
 
-.filtros-partidos {
-    margin: 2rem 0;
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
+/* =================== TABLA DE POSICIONES =================== */
+
+.cabecera-tabla {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 2rem; /* Añade este margen superior */
+    margin-bottom: 1rem; /* Opcional: espacio bajo el título */
 }
 
-.btn-filtro {
-    padding: 0.8rem 2rem;
-    border: none;
-    border-radius: 5px;
-    background: #e0e0e0;
-    cursor: pointer;
-    transition: all 0.3s;
-}
-
-.btn-filtro.active {
-    background: #2c3e50;
-    color: white;
-}
-
-/* =================== ESTRUCTURA DE FECHAS =================== */
-.grupo-fecha {
-    margin-bottom: 2rem;
-    background: #fff;
-    border-radius: 10px;
+.tabla-contenedor {
+    overflow-x: auto;
+    margin: 1rem 0;
+    border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
-.fecha-header {
-    padding: 1rem;
+.tabla-goleadores {
+    width: 100%;
+    border-collapse: collapse;
+    background: white;
+    margin: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.tabla-goleadores th,
+.tabla-goleadores td {
+    padding: 12px;
+    border: 1px solid #eee;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.tabla-goleadores th {
     background: #2c3e50;
     color: white;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+}
+
+.tabla-goleadores tr:nth-child(even) {
+    background-color: #f8f9fa;
+}
+
+/* =================== BOTONES SERIES =================== */
+.selector-series {
+    text-align: center;
+    margin: 2rem 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.boton-serie {
+    background: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    border-radius: 25px;
     cursor: pointer;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-radius: 10px 10px 0 0;
+    transition: all 0.3s ease;
+    min-width: 120px;
 }
 
-.fecha-titulo {
-    margin: 0; /* Eliminar márgenes por defecto de h3 */
-    display: flex;
-    justify-content: center; /* Centrar horizontalmente */
-    align-items: center; /* Centrar verticalmente */
-    gap: 0.5rem; /* Espacio entre elementos */
-    flex-wrap: wrap; /* Permitir saltos de línea en móviles */
+.boton-serie:hover {
+    background: #45a049;
+    transform: translateY(-2px);
 }
 
-
-.partidos-fecha {
-    display: none;
-    padding: 1rem;
-    gap: 1rem;
+.boton-serie.active {
+    background: #2d6a30;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-.partidos-fecha.activo {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+.boton-serie:disabled {
+    background: #95a5a6;
+    cursor: not-allowed;
+    opacity: 0.7;
 }
-
-.partido-card {
-    padding: 1.5rem;
-    border: 1px solid #eee;
-    border-radius: 8px;
-}
-
-.partido-info {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 1rem;
-    gap: 1rem;
-}
-
-.equipos-proximos, .equipos-resultado {
-    display: flex;
-    justify-content: center; /* Centrado horizontal */
-    align-items: center; /* Centrado vertical */
-    width: 100%;
-    gap: 1rem;
-    text-align: center; /* Asegura centrado del texto */
-}
-
-.equipo {
-    flex: 1;
-    text-align: center;
-    font-weight: bold;
-    color: #2c3e50;
-}
-
-.vs {
-    color: #e74c3c;
-    font-weight: bold;
-}
-
-.detalles-partido {
-    text-align: center;
-    color: #666;
-    font-size: 0.9em;
-    padding-top: 1rem;
-    border-top: 1px solid #eee;
-}
-
-resultado-estilo {
-    justify-content: center !important;
-    gap: 1rem;
-}
-
-.equipos-resultado {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    font-size: 1.1em;
-}
-
-.resultado {
-    color: #27ae60;
-    font-weight: bold;
-    font-size: 1.2em;
-}
-
-.hora-jugado {
-    color: #666;
-    font-size: 0.9em;
-    margin-bottom: 0.5rem;
-}
-
-.hora-jugado i {
-    margin-right: 0.3rem;
-    color: #e74c3c;
-}
-
-
-.equipos-proximos .equipo {
-    flex: 1;
-    max-width: 40%;
-    word-break: break-word;
-}
-
-.equipos-proximos .vs {
-    color: #e74c3c;
-    font-weight: bold;
-    margin: 0 0.5rem;
-}
-
 
 /* =================== FOOTER =================== */
 .footer {
@@ -350,8 +283,13 @@ resultado-estilo {
     margin-top: auto; /* Mantener pegado al final */
 }
 
-/* =================== RESPONSIVE =================== */
+.tabla-contenedor {
+    margin-bottom: 0;
+}
+
+/* =================== MEDIA QUERIES =================== */
 @media (max-width: 768px) {
+    /* Menú móvil */
     .menu-toggle {
         display: block;
     }
@@ -386,28 +324,68 @@ resultado-estilo {
         transform: rotate(-45deg);
         top: 0;
     }
-    
-    .partidos-fecha.activo {
-        grid-template-columns: 1fr;
+
+    .tabla-contenedor {
+        overflow-x: auto;
+        margin: 1rem 0;
+        border-radius: 8px;
+    }
+
+    .tabla-goleadores {
+        font-size: 0.9rem;
+        min-width: 600px;
     }
     
-    .partido-info {
+    .tabla-goleadores th,
+    .tabla-goleadores td {
+        padding: 8px;
+    }
+
+    /* Footer móvil */
+
+    .footer-contact li {
+        gap: 0.5rem; /* Reducir espacio entre icono y texto */
+        margin-bottom: 0.3rem;
+    }
+    
+    .footer {
+        padding-top: 1.5rem; /* Reducir padding superior */
+    }
+    
+    .footer-container {
         flex-direction: column;
-    }
-
-    .equipos-proximos, .equipos-resultado {
-        flex-direction: column;
-        text-align: center;
+        gap: 1.5rem;
     }
     
-    .equipo {
-        max-width: 100%; /* Ocupa todo el ancho */
-        margin: 5px 0;
+    .footer-column {
+        padding: 1rem 0;
     }
+}
 
-    .resultado {
-        order: 1;
-        margin: 0.5rem 0;
+@media (max-width: 480px) {
+    .cabecera-tabla {
+        font-size: 1.2rem;
+        margin: 1rem 0;
     }
-
+    
+    .tabla-goleadores {
+        font-size: 0.8rem;
+        min-width: 100%;
+    }
+    
+    .tabla-goleadores th:nth-child(n+4),
+    .tabla-goleadores td:nth-child(n+4) {
+        display: none;
+    }
+    /* Botones más pequeños */
+    .boton-serie {
+        padding: 10px 15px;
+        font-size: 0.9rem;
+        min-width: auto;
+    }
+    
+    /* Ajustes finales footer */
+    .footer-bottom p {
+        font-size: 0.8rem;
+    }
 }

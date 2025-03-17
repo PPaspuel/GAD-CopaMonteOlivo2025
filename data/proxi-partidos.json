@@ -1,26 +1,62 @@
 [
     {
-        "fecha": "SÁBADO 7/3",
         "jornada": "Fecha 1",
+        "fecha": "Sábado 7/3",
         "partidos": [
             {
-                "hora": "19:00",
                 "local": "ASA Banco del Austro",
                 "visitante": "Deportivo Cuenca",
-                "serie": []
+                "hora": "19:00",
+                "serie": ["A"]
+            },
+            {
+                
+                "local": "Deportivo Cuenca",
+                "visitante": "ASA Banco del Austro",
+                "hora": "19:00",
+                "serie": ["A"]
+            },
+            {
+                "local": "Deportivo Cuenca",
+                "visitante": "ASA Banco del Austro",
+                "hora": "19:00",
+                "serie": ["A"]
             }
         ]
     },
-
     {
-        "fecha": "DOMINGO 8/3",
         "jornada": "Fecha 1",
+        "fecha": "Domingo 8/3",
         "partidos": [
             {
+                "local": "Deportivo Cuenca",
+                "visitante": "ASA Banco del Austro",
                 "hora": "19:00",
-                "local": "ASA Banco del Austro",
-                "visitante": "Deportivo Cuenca",
-                "serie": []
+                "serie": ["A"]
+            },
+            {
+                "local": "Deportivo Cuenca",
+                "visitante": "ASA Banco del Austro",
+                "hora": "19:00",
+                "serie": ["A"]
+            }
+        ]
+    },
+    {
+        "jornada": "Fecha 2",
+        "fecha": "Sábado 21/3",
+        "partidos": [
+            {
+                "local": "Deportivo Cuenca",
+                "visitante": "ASA Banco del Austro",
+                "hora": "19:00",
+                "serie": ["A"]
+            },
+            {
+                "local": "Deportivo Cuenca",
+                "visitante": "ASA Banco del Austro",
+                "hora": "19:00",
+                "serie": ["A"]
             }
         ]
     }

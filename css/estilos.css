@@ -443,14 +443,6 @@ body {
         font-size: clamp(1.3rem, 5vw, 1.8rem);
     }
 
-    .logo {
-        max-width: 200px;
-    }
-    
-    .logo-image {
-        max-height: 50px;
-    }
-
     .image-text-card {
         flex-direction: column;
         margin-bottom: 2rem;

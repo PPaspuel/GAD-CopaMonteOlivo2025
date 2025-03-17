@@ -1,29 +1,92 @@
 [
     {
-        "fecha": null,
+        "jornada": "Fecha 1",
+        "fecha": "Sabado 12/03",
         "partidos": [
             {
-                "fechaCalendario": "8 de Marzo 2025",
-                "etapa": "Primera Etapa",
-                "hora": "16:30",
                 "local": "Manta FC",
                 "visitante": "CD El Nacional",
                 "resultado": "0 - 0",
-                "serie": ["A"]
+                "hora": "12:00 am",
+                "serie": ["A"],
+                "etapa": "Primera Etapa"
+            },
+            {
+                "local": "Manta FC",
+                "visitante": "CD El Nacional",
+                "resultado": "0 - 0",
+                "hora": "13:00 pm",
+                "serie": ["A"],
+                "etapa": "Primera Etapa"
+            },
+            {
+                "local": "Manta FC",
+                "visitante": "CD El Nacional",
+                "resultado": "0 - 0",
+                "hora": "14:00 pm",
+                "serie": ["A"],
+                "etapa": "Primera Etapa"
+            }
+
+        ]
+    },
+
+    {
+        "jornada": "Fecha 1",
+        "fecha": "Domingo 13/03",
+        "partidos": [
+            {
+                "local": "Manta FC",
+                "visitante": "CD El Nacional",
+                "resultado": "0 - 0",
+                "hora": "12:00 am",
+                "serie": ["A"],
+                "etapa": "Primera Etapa"
+            },
+            {
+                "local": "Manta FC",
+                "visitante": "CD El Nacional",
+                "resultado": "0 - 0",
+                "hora": "13:00 pm",
+                "serie": ["A"],
+                "etapa": "Primera Etapa"
+            },
+            {
+                "local": "Manta FC",
+                "visitante": "CD El Nacional",
+                "resultado": "0 - 0",
+                "hora": "14:00 pm",
+                "serie": ["A"],
+                "etapa": "Primera Etapa"
             }
         ]
     },
+
+    
     {
-        "fecha": null,
+        "jornada": "Fecha 2",
+        "fecha": "Sabado 14/03",
         "partidos": [
             {
-                "fechaCalendario": "9 de Marzo 2025",
-                "etapa": "Primera Etapa",
-                "hora": "16:30",
-                "local": "CD El Nacional",
-                "visitante": "Manta FC",
+                "local": "Manta FC",
+                "visitante": "CD El Nacional",
                 "resultado": "0 - 0",
-                "serie": ["B"]
+                "serie": ["A"],
+                "etapa": "Primera Etapa"
+            },
+            {
+                "local": "Manta FC",
+                "visitante": "CD El Nacional",
+                "resultado": "0 - 0",
+                "serie": ["A"],
+                "etapa": "Primera Etapa"
+            },
+            {
+                "local": "Manta FC",
+                "visitante": "CD El Nacional",
+                "resultado": "0 - 0",
+                "serie": ["A"],
+                "etapa": "Primera Etapa"
             }
         ]
     }

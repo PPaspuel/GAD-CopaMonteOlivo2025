@@ -4,9 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/partidos.css">
-    <title>Copa Monte Olivo 2025 - Partidos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Partidos y Resultados</title>
 </head>
+
 <body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="../index.html" class="logo-link">
+                    <img src="../imagenes/LogoCopaMonteOlivo-SinFondo.PNG" alt="COPA MONTE OLIVO 2025" class="logo-image">
+                </a>
+            </div>
+            
+            <nav class="navbar" id="navbar">
+                <button class="menu-toggle" aria-label="Abrir menú">
+                    <span class="hamburger"></span>
+                </button>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="../secciones/tabla-posiciones.html" class="nav-link">Tabla de Posiciones</a></li>
+                    <li class="nav-item"><a href="../secciones/lista-partidos.html" class="nav-link">Próximos Partidos</a></li>
+                    <li class="nav-item"><a href="../secciones/tabla-goleadores.html" class="nav-link">Tabla de Goleadores</a></li>
+                    <li class="nav-item"><a href="../secciones/lista-equipos.html" class="nav-link">Nómina de Equipos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
     <main>
         <section class="contenedor-partidos">
             <h1 class="titulo-principal">Copa Monte Olivo 2025</h1>
@@ -17,9 +41,59 @@
                 <button class="btn-filtro" data-archivo="anter-partidos">Resultados Anteriores</button>
             </div>
 
-            <div id="agrupador-fechas"></div>
+            <div id="agrupador-fechas" class="agrupador-fechas"></div>
         </section>
     </main>
+
+    <footer class="footer">
+        <footer class="footer">
+            <div class="footer-container">
+                <!-- Sección de información del campeonato -->
+                <div class="footer-column">
+                    <img src="../imagenes/LogoCopaMonteOlivo-SinFondo.PNG" alt="Logo Copa Monte Olivo" class="footer-logo">
+                    <p class="footer-description">
+                        Campeonato organizado por el GAD Monte Olivo para promover el deporte y la sana competencia entre comunidades.
+                    </p>
+                </div>
+        
+                <!-- Enlaces rápidos -->
+                <div class="footer-column">
+                    <h4 class="footer-title">Enlaces Rápidos</h4>
+                    <ul class="footer-links">
+                        <li><a href="../secciones/tabla-posiciones.html" class="footer-link">Tabla de Posiciones</a></li>
+                        <li><a href="../secciones/lista-partidos.html" class="footer-link">Calendario de Partidos</a></li>
+                        <li><a href="../secciones/tabla-goleadores.html" class="footer-link">Goleadores</a></li>
+                        <li><a href="../secciones/lista-equipos.html" class="footer-link">Equipos Participantes</a></li>
+                    </ul>
+                </div>
+        
+                <!-- Información de contacto -->
+                <div class="footer-column">
+                    <h4 class="footer-title">Contacto</h4>
+                    <ul class="footer-contact">
+                        <li><i class="fas fa-map-marker-alt"></i>Calles Bolívar y Sucre </li>
+                        <li><i class="fas fa-phone"></i>063013340</li>
+                        <li><i class="fas fa-envelope"></i>gpmonteolivo.gob.ec</li>
+                    </ul>
+                    
+                    <!-- Redes Sociales -->
+                    <div class="social-media">
+                        <a href="https://www.facebook.com/gadmonteolivo" class="social-link"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.youtube.com/@gadprmonteolivo2262" class="social-link"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+        
+            <!-- Derechos de autor -->
+            <div class="footer-bottom">
+                <p>&copy; 2025 Campeonato Copa Monte Olivo. Todos los derechos reservados.</p>
+                <p>Desarrollado por el Departamento de Deportes GAD Monte Olivo</p>
+            </div>
+        </footer>
+    </footer>
+
     <script src="../js/partidos.js"></script>
 </body>
 </html>

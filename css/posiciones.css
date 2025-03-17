@@ -146,12 +146,8 @@ body {
     font-weight: bold;
 }
 
-.tabla-posiciones tr:nth-child(even) {
-    background-color: #f8f9fa;
-}
-
-.zona-eliminacion {
-    background-color: #ffcccc;
+.tabla-posiciones tr.zona-eliminacion {
+    background-color: #ffcccc !important;
     font-weight: bold;
 }
 

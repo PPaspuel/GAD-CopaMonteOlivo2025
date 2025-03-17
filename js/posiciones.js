@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Cargar Serie A por defecto
     cargarTablaPosiciones('serie-a');
+    configurarMenuHamburguesa(); // Nueva función añadida
     
     // Event listeners para los botones
     document.querySelectorAll('.boton-serie').forEach(boton => {
@@ -15,6 +16,27 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+
+// =================== FUNCIONALIDAD MENÚ RESPONSIVE ===================
+function configurarMenuHamburguesa() {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navList = document.querySelector('.nav-list');
+
+    menuToggle.addEventListener('click', function() {
+        this.classList.toggle('active');
+        navList.classList.toggle('active');
+        document.body.style.overflow = navList.classList.contains('active') ? 'hidden' : 'auto';
+    });
+
+    // Cerrar menú al hacer clic en enlaces
+    document.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', () => {
+            menuToggle.classList.remove('active');
+            navList.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        });
+    });
+}
 
 async function cargarTablaPosiciones(serie) {
     try {
@@ -36,8 +58,8 @@ function renderizarTabla(data) {
                 <tr>
                     <th>Posiciones</th>
                     <th>Equipos</th>
-                    <th>PTS</th>
                     <th>PJ</th>
+                    <th>PTS</th>
                     <th>PG</th>
                     <th>PP</th>
                     <th>PE</th>
@@ -51,8 +73,8 @@ function renderizarTabla(data) {
                     <tr ${equipo.posicion === 16 ? 'class="zona-eliminacion"' : ''}>
                         <td>${equipo.posicion}</td>
                         <td>${equipo.nombre}</td>
-                        <td>${equipo.pts}</td>
                         <td>${equipo.pj}</td>
+                        <td>${equipo.pts}</td>
                         <td>${equipo.pg}</td>
                         <td>${equipo.pp}</td>
                         <td>${equipo.pe}</td>

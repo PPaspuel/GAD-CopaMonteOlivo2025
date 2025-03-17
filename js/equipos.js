@@ -1,6 +1,28 @@
 document.addEventListener("DOMContentLoaded", function () {
     cargarNominadeEquipos();
+    configurarMenuHamburguesa(); // Nueva función añadida
 });
+
+// =================== FUNCIONALIDAD MENÚ RESPONSIVE ===================
+function configurarMenuHamburguesa() {
+    const menuToggle = document.querySelector('.menu-toggle');
+    const navList = document.querySelector('.nav-list');
+
+    menuToggle.addEventListener('click', function() {
+        this.classList.toggle('active');
+        navList.classList.toggle('active');
+        document.body.style.overflow = navList.classList.contains('active') ? 'hidden' : 'auto';
+    });
+
+    // Cerrar menú al hacer clic en enlaces
+    document.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', () => {
+            menuToggle.classList.remove('active');
+            navList.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        });
+    });
+}
 
 function cargarJSON(url, callback) {
     fetch(url)
@@ -25,16 +47,20 @@ function cargarNominadeEquipos() {
     });
 }
 
+// Modificación en el JavaScript
 function mostrarJugadores(nombre, jugadores) {
-    document.querySelector("#dropdownEquipos").textContent = nombre; // Actualiza el botón del dropdown
-    document.querySelector("#nombre-equipo").textContent = nombre; // Muestra el nombre del equipo en la primera fila de la tabla
+    document.querySelector("#dropdownEquipos").textContent = nombre;
+    document.querySelector("#nombre-equipo").textContent = nombre;
 
     let tabla = document.querySelector("#tabla-nomina");
-    tabla.innerHTML = ""; // Limpiar la tabla
+    tabla.innerHTML = "";
 
-    // Agregar jugadores en filas numeradas
     jugadores.forEach((jugador, index) => {
-        let filaJugador = `<tr><td>${index + 1}</td><td>${jugador}</td></tr>`;
+        let filaJugador = `<tr>
+            <td>${index + 1}</td>
+            <td>${jugador.numero}</td>
+            <td>${jugador.nombre}</td>
+        </tr>`;
         tabla.innerHTML += filaJugador;
     });
 }

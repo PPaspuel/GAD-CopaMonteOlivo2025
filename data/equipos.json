@@ -1,5 +1,23 @@
 [
-    {"nombre": "Palmeiras", "jugadores": ["Carlos Huera", "Andres Trujillo"]},
-    {"nombre": "San Jose", "jugadores": ["David Ponce", "Ariel Fantomimas"]},
-    {"nombre": "Solo Panas", "jugadores": ["Sander Armas", "Santiago Pilacuan"]}
+    {
+        "nombre": "Palmeiras",
+        "jugadores": [
+            {"numero": 1, "nombre": "Carlos Huera"},
+            {"numero": 2, "nombre": "Andres Trujillo"}
+        ]
+    },
+    {
+        "nombre": "San Jose",
+        "jugadores": [
+            {"numero": 10, "nombre": "David Ponce"},
+            {"numero": 7, "nombre": "Ariel Fantomimas"}
+        ]
+    },
+    {
+        "nombre": "Solo Panas",
+        "jugadores": [
+            {"numero": 5, "nombre": "Sander Armas"},
+            {"numero": 9, "nombre": "Santiago Pilacuan"}
+        ]
+    }
 ]
