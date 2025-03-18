@@ -19,10 +19,9 @@ body {
 /* =================== HEADER =================== */
 .header {
     background: #A6AEBF;
-    color: white;
+    color: #fff;
     padding: 1rem 0;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    position: relative;
     z-index: 1000;
 }
 
@@ -39,13 +38,31 @@ body {
 .navbar {
     display: flex;
     align-items: center;
+    background: #A6AEBF !important;
     width: 100%;
+}
+
+.navbar-nav {
+    gap: 1rem !important; /* Separación entre elementos del menú */
+    margin-right: 1.5rem; /* Margen derecho adicional si es necesario */
+}
+
+.navbar .nav-link {
+    color: white !important;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+}
+
+.navbar .nav-link:hover {
+    background: rgba(255,255,255,0.1);
+    color: #000 !important;
 }
 
 .nav-list {
     display: flex;
     list-style: none;
     gap: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 .nav-link {
@@ -105,6 +122,7 @@ body {
     height: auto;
     max-height: 80px;
     object-fit: contain;
+    margin-left: 1.5rem;
 }
 
 
@@ -206,6 +224,16 @@ body {
         display: block;
     }
 
+    .navbar-collapse {
+        padding-left: 0.5rem;
+        padding-right: 1.5rem;
+        margin-top: 1rem;
+    }
+    
+    .navbar-nav {
+        gap: 0.5rem !important; /* Menos separación en móviles */
+    }
+
     .nav-list {
         display: none;
         position: absolute;
@@ -237,6 +265,9 @@ body {
         top: 0;
     }
 
+    .logo-image {
+        margin-left: 0.9rem;
+    }
     /* Footer móvil */
 
     .footer-contact li {

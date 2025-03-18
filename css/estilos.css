@@ -173,7 +173,8 @@ body {
     display: flex;
     gap: 2rem;
     margin-bottom: 4rem;
-    align-items: center;
+    /* align-items: center; */
+    align-items: stretch;
 }
 
 .image-text-card.reverse {
@@ -182,18 +183,26 @@ body {
 
 .image-container {
     flex: 1;
-    min-width: 300px;
-    height: 350px;
+    /* min-width: 300px; */
+    min-width: unset;
+    width: 100%;
+    height: auto;
     overflow: hidden;
     position: relative;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    /*box-shadow: 0 4px 6px rgba(0,0,0,0.1); */
+}
+
+img{
+    max-width: 100%;
+    height: auto;
 }
 
 .image-container img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    /* object-fit: cover; */
     transition: transform 0.3s ease;
 }
 
@@ -217,6 +226,10 @@ body {
     line-height: 1.6;
 }
 
+.justificado {
+    text-align: justify;
+}
+
 /* =================== CARRUSEL =================== */
 .carousel-section {
     padding: 2rem 0;
@@ -233,7 +246,9 @@ body {
     position: relative;
     max-width: 1200px;
     margin: 0 auto;
-    height: 500px;
+    height: auto;
+    /* height: 500px; */
+    aspect-ratio: 16/9;
     overflow: hidden;
     border-radius: 12px;
 }
@@ -253,8 +268,10 @@ body {
 .carousel-slide img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
+    /* object-fit: cover; */
     object-position: center;
+    background: #f0f0f0;
 }
 
 .carousel-btn {
@@ -283,6 +300,7 @@ body {
     color: #ecf0f1;
     padding: 3rem 0 0;
     margin-top: auto;
+    box-shadow: 0 -10px 15px -5px rgba(0,0,0,0.1);
 }
 
 .footer-container {
@@ -444,19 +462,39 @@ body {
     }
 
     .image-text-card {
-        flex-direction: column;
-        margin-bottom: 2rem;
+        flex-direction: column !important;
+        /* margin-bottom: 2rem; */
+        gap: 1rem;
     }
     
     .image-container {
-        width: 100%;
+        min-width: 100%;
+        /* width: 100%; */
         height: 250px;
+        /* aspect-ratio: 1; */
     }
 
-    .carousel-container {
-        height: 300px;
-        border-radius: 8px;
+    .text-content{
+        text-align: center;
+        padding: 0 1rem;
     }
+
+    .text-content h3{
+        font-size: 1.5rem;
+    }
+    
+    .carousel-container {
+        /* height: 300px; */
+        border-radius: 8px;
+        aspect-ratio: 1;
+        width: 100% !important;
+        max-width: 100%;
+        /* width: 430px; */
+    }
+
+    /* .carousel-slide img {
+        object-fit: cover; 
+    } */
 
     .footer-container {
         flex-direction: column;
