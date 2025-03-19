@@ -563,7 +563,7 @@ img{
     
     .welcome-logo {
         width: 35vw !important;
-        min-width: 120px;
+        /* min-width: 120px; */
         /* margin-bottom: 1.5vh; */
     }
 
@@ -644,32 +644,24 @@ img{
         min-width: 100%;
     }
 
-    .welcome-container {
-        padding: 10px 0;
-    }
-    
-    .welcome-logo {
-        width: min(45vw, 150px);
-    }
-    
-    .image-text {
-        line-height: 1.1;
-        margin-bottom: 0.5vh;
+   .welcome-container {
+        top: 30% !important;
+        transform: translate(-50%, -50%) scale(0.7);
     }
 
-    .image-wrapper {
-        /* padding-top: 90%; */
-        /* height: 40vh; */
-        /* min-height: 100vw; */
-        aspect-ratio: 3/4;
-        /* max-height: 400px; */
+    .welcome-logo {
+        width: clamp(100px, 25vw, 150px) !important;
+    }
+
+    .image-text {
+        font-size: clamp(0.8rem, 4vw, 1.2rem) !important;
+    }
+
+    .image-text2 {
+        font-size: clamp(0.8rem, 3.5vw, 1.1rem) !important;
     }
 
     .responsive-image {
-        object-position: 50% 45%; /* Ajuste fino para móviles */
-    }
-    
-    .welcome-logo {
-        max-width: 150px !important; /* Fuerza tamaño logo */
+        object-position: 50% 45%; /* Mayor ajuste vertical */
     }
 }
