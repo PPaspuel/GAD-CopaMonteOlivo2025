@@ -120,6 +120,8 @@ body {
 
 .tabla-contenedor {
     overflow-x: auto;
+    -webkit-overflow-scrolling: touch; /* Scroll suave en iOS */
+    width: 100%; /*Nuevo*/
     margin: 1rem 0;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
@@ -129,7 +131,7 @@ body {
     width: 100%;
     border-collapse: collapse;
     background: white;
-    min-width: 800px;
+    min-width: 900px;
 }
 
 .tabla-posiciones th,
@@ -326,10 +328,25 @@ body {
         font-size: 0.9rem;
         min-width: 600px;
     }
+
+    .tabla-posiciones thead {
+        position: sticky;
+        left: 0;
+        z-index: 1;
+    }
     
     .tabla-posiciones th,
     .tabla-posiciones td {
-        padding: 8px;
+        min-width: 90px; /* Ancho mínimo por columna */
+        padding: 12px 8px;
+        border: 1px solid #eee;
+        text-align: center;
+        font-size: 0.9rem;
+    }
+
+    .tabla-posiciones th:nth-child(n+5),
+    .tabla-posiciones td:nth-child(n+5) {
+        display: table-cell; /* Muestra todas las columnas */
     }
 
     /* Footer móvil */
