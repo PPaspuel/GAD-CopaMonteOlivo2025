@@ -106,8 +106,8 @@ body {
 
 /* =================== CONTENIDO PRINCIPAL =================== */
 .main-image {
-    max-width: 1510px;
-    padding: 0;
+    position: relative;
+    width: 100%;
     overflow: hidden;
     border-radius: 0 0 5px 5px;
 }
@@ -115,9 +115,14 @@ body {
 .image-wrapper {
     position: relative;
     width: 100%;
-    height: 500px;
-    margin: 0 auto;
+    height: 0;
+    padding-top: 56.25%;
+    min-height: 70vh;
+    max-height: 800px;
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     box-shadow: 0 2px 10px rgba(0,0,0,0.2);
 }
 
@@ -132,11 +137,26 @@ body {
 }
 
 .responsive-image {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: center;
+    object-position: center top;
     display: block;
+    transition: transform 0.3s ease;
+}
+
+/* OVERLAY */
+.image-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 1;
 }
 
 .image-text,
@@ -173,7 +193,6 @@ body {
     display: flex;
     gap: 2rem;
     margin-bottom: 4rem;
-    /* align-items: center; */
     align-items: stretch;
 }
 
@@ -183,19 +202,41 @@ body {
 
 .image-container {
     flex: 1;
-    /* min-width: 300px; */
     min-width: unset;
     width: 100%;
     height: auto;
     overflow: hidden;
     position: relative;
     border-radius: 8px;
-    /*box-shadow: 0 4px 6px rgba(0,0,0,0.1); */
 }
 
 img{
     max-width: 100%;
     height: auto;
+}
+
+/* Contenedor principal del texto y logo */
+.welcome-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+
+/* Estilos para el logo */
+.welcome-logo {
+    width: min(25vw, 250px);
+    min-width: 120px;
+    height: auto;
+    margin-bottom: 2vh;
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.7));
 }
 
 .image-container img {
@@ -208,6 +249,13 @@ img{
 
 .image-text-card:hover img {
     transform: scale(1.05);
+}
+
+/* Contenedor de texto */
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 .text-content {
@@ -228,6 +276,45 @@ img{
 
 .justificado {
     text-align: justify;
+}
+
+/* Textos con wrap forzado */
+.image-text,
+.image-text2 {
+    width: 100%;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8);
+    line-height: 1.2;
+    margin: 0;
+    position: static;
+    transform: none;
+    white-space: normal;
+}
+
+/* Ajustes para los textos existentes */
+.image-text {
+    color: white;
+    font-size: clamp(1.5rem, 5vw, 3rem);
+    margin-bottom: 1vh;
+    letter-spacing: 1.2px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+}
+
+.image-text2 {
+    font-size: clamp(1.2rem, 4vw, 2.5rem);
+    color: #ffd700;
+    font-style: italic;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    top: 115%;
+}
+
+/* Asegura que la imagen de fondo sea responsive */
+.responsive-image {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 /* =================== CARRUSEL =================== */
@@ -415,6 +502,20 @@ img{
 }
 
 /* =================== MEDIA QUERIES =================== */
+@media (min-width: 1600px) {
+    .image-wrapper {
+        padding-top: 45%; /* Pantallas ultra anchas */
+    }
+}
+
+@media (max-width: 1200px) {
+    .image-wrapper {
+        height: 60vh;
+        min-height: 60vh;
+        padding-top: 60%;
+    }
+}
+
 @media (max-width: 768px) {
     .menu-toggle {
         display: block;
@@ -452,26 +553,49 @@ img{
     }
 
     .image-wrapper {
-        height: 300px;
-        border-radius: 4px;
+        height: auto;
+        min-height: 400px;
+        aspect-ratio: 1/1;
+        /* max-height: 500px; */
+        /* padding-top: 75%; */
     }
     
-    .image-text,
+    .welcome-logo {
+        width: min(35vw, 180px);
+        margin-bottom: 1.5vh;
+    }
+
+    .image-wrapper {
+        height: 300px;
+        border-radius: 4px;
+        min-height: 50vh;
+    }
+
+    .responsive-image {
+        object-fit: cover;
+        object-position: 60% top; /* Ajusta posición en móviles */
+    }
+    
+    .welcome-container {
+        transform: translate(-50%, -50%) scale(0.9); /* Reduce tamaño del logo/texto */
+    }
+
+    .image-text {
+        font-size: clamp(1.2rem, 6vw, 2rem);
+    }
+    
     .image-text2 {
-        font-size: clamp(1.3rem, 5vw, 1.8rem);
+        font-size: clamp(1rem, 5vw, 1.8rem);
     }
 
     .image-text-card {
         flex-direction: column !important;
-        /* margin-bottom: 2rem; */
         gap: 1rem;
     }
     
     .image-container {
         min-width: 100%;
-        /* width: 100%; */
         height: 250px;
-        /* aspect-ratio: 1; */
     }
 
     .text-content{
@@ -491,10 +615,6 @@ img{
         max-width: 100%;
         /* width: 430px; */
     }
-
-    /* .carousel-slide img {
-        object-fit: cover; 
-    } */
 
     .footer-container {
         flex-direction: column;
@@ -519,5 +639,34 @@ img{
     
     .image-text-card .image-container {
         min-width: 100%;
+    }
+
+    .welcome-container {
+        padding: 10px 0;
+    }
+    
+    .welcome-logo {
+        width: min(45vw, 150px);
+    }
+    
+    .image-text {
+        line-height: 1.1;
+        margin-bottom: 0.5vh;
+    }
+
+    .image-wrapper {
+        /* padding-top: 90%; */
+        /* height: 40vh; */
+        min-height: 300px;
+        aspect-ratio: 3/4;
+        /* max-height: 400px; */
+    }
+
+    .responsive-image {
+        object-position: 70% top; /* Ajuste fino para móviles */
+    }
+    
+    .welcome-logo {
+        max-width: 150px !important; /* Fuerza tamaño logo */
     }
 }
