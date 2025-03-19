@@ -110,15 +110,17 @@ body {
     width: 100%;
     overflow: hidden;
     border-radius: 0 0 5px 5px;
+    background: #000;
 }
 
 .image-wrapper {
     position: relative;
     width: 100%;
-    height: 70vh;
+    aspect-ratio: 16/9;
+    /* height: 70vh; */
     /* padding-top: 56.25%; */
-    min-height: 500px;
-    max-height: 800px;
+    min-height: 220px;
+    /* max-height: 800px; */
     /* overflow: hidden;
     display: flex;
     align-items: center;
@@ -137,15 +139,15 @@ body {
 }
 
 .responsive-image {
-    position: absolute;
+    /* position: absolute;
     top: 0;
-    left: 0;
+    left: 0; */
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: 35% center;
-    /* display: block;
-    transition: transform 0.3s ease; */
+    object-position: 30% center;
+    display: block;
+    /*transition: transform 0.3s ease; */
 }
 
 /* OVERLAY */
@@ -224,10 +226,10 @@ img{
     text-align: center;
     z-index: 2;
     width: 90%;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 20px 0;
+    padding: 20px 0; */
 }
 
 /* Estilos para el logo */
@@ -546,19 +548,23 @@ img{
         transform: rotate(-45deg);
         top: 0;
     }
+    .main-image{
+        height: 220px;
+    }
 
     .image-wrapper {
-        height: auto;
-        min-height: 70vw;
+        /* height: auto; */
+        min-height: 220px;
         aspect-ratio: 1/1;
-        max-height: unset;
+        /* max-height: unset; */
         /* max-height: 500px; */
         /* padding-top: 75%; */
     }
     
     .welcome-logo {
-        width: min(35vw, 180px);
-        margin-bottom: 1.5vh;
+        width: 35vw !important;
+        min-width: 120px;
+        /* margin-bottom: 1.5vh; */
     }
 
     .image-wrapper {
@@ -569,19 +575,20 @@ img{
 
     .responsive-image {
         /* object-fit: cover; */
-        object-position: 55% center; /* Ajusta posición en móviles */
+        object-position: 50% 35%; /* Ajusta posición en móviles */
     }
     
     .welcome-container {
-        transform: translate(-50%, -50%) scale(0.9); /* Reduce tamaño del logo/texto */
+        top: 40%;
+        transform: translate(-50%, -50%) scale(0.7); /* Reduce tamaño del logo/texto */
     }
 
     .image-text {
-        font-size: clamp(1.2rem, 6vw, 2rem);
+        font-size: clamp(1.2rem, 5vw, 1.8rem) !important;
     }
     
     .image-text2 {
-        font-size: clamp(1rem, 5vw, 1.8rem);
+        font-size: clamp(1rem, 4vw, 1.5rem) !important;
     }
 
     .image-text-card {
@@ -653,13 +660,13 @@ img{
     .image-wrapper {
         /* padding-top: 90%; */
         /* height: 40vh; */
-        min-height: 100vw;
+        /* min-height: 100vw; */
         aspect-ratio: 3/4;
         /* max-height: 400px; */
     }
 
     .responsive-image {
-        object-position: 70% top; /* Ajuste fino para móviles */
+        object-position: 50% 45%; /* Ajuste fino para móviles */
     }
     
     .welcome-logo {
