@@ -1,26 +1,13 @@
 [
     {
         "jornada": "Fecha 1",
-        "fecha": "Sábado 7/3",
+        "fecha": "Sábado 15/03/2025",
         "partidos": [
             {
-                "local": "ASA Banco del Austro",
-                "visitante": "Deportivo Cuenca",
-                "hora": "19:00",
-                "serie": ["A"]
-            },
-            {
-                
-                "local": "Deportivo Cuenca",
-                "visitante": "ASA Banco del Austro",
-                "hora": "19:00",
-                "serie": ["A"]
-            },
-            {
-                "local": "Deportivo Cuenca",
-                "visitante": "ASA Banco del Austro",
-                "hora": "19:00",
-                "serie": ["A"]
+                "local": "San José",
+                "visitante": "Águilas del Palmar",
+                "hora": "16:00 pm",
+                "serie": null
             }
         ]
     },

@@ -2,21 +2,17 @@
     "torneo": "SERIE A - FASE INICIAL",
     "equipos": [
         {"posicion": 1, "nombre": "San Jóse", "pj": 1, "pts": 3, "pg": 1, "pp": 0, "pe": 0, "gf": 3, "gc": 2, "dg": "+1"},
-        {"posicion": 2, "nombre": "Equipo 2", "pj": 0, "pts": 0, "pg": 0, "pp": 0, "pe": 0, "gf": 0, "gc": 0, "dg": "0"},
-        {"posicion": 3, "nombre": "Equipo 3", "pj": 0, "pts": 0, "pg": 0, "pp": 0, "pe": 0, "gf": 0, "gc": 0, "dg": "0"},
-        {"posicion": 4, "nombre": "Equipo 4", "pj": 0, "pts": 0, "pg": 0, "pp": 0, "pe": 0, "gf": 0, "gc": 0, "dg": "0"},
-        {"posicion": 5, "nombre": "Equipo 5", "pj": 0, "pts": 0, "pg": 0, "pp": 0, "pe": 0, "gf": 0, "gc": 0, "dg": "0"},
-        {"posicion": 6, "nombre": "Equipo 6", "pj": 0, "pts": 0, "pg": 0, "pp": 0, "pe": 0, "gf": 0, "gc": 0, "dg": "0"},
-        {"posicion": 7, "nombre": "Equipo 7", "pj": 0, "pts": 0, "pg": 0, "pp": 0, "pe": 0, "gf": 0, "gc": 0, "dg": "0"},
-        {"posicion": 8, "nombre": "Equipo 8", "pj": 0, "pts": 0, "pg": 0, "pp": 0, "pe": 0, "gf": 0, "gc": 0, "dg": "0"},
-        {"posicion": 9, "nombre": "Equipo 9", "pj": 0, "pts": 0, "pg": 0, "pp": 0, "pe": 0, "gf": 0, "gc": 0, "dg": "0"},
-        {"posicion": 10, "nombre": "Equipo 10", "pj": 0, "pts": 0, "pg": 0, "pp": 0, "pe": 0, "gf": 0, "gc": 0, "dg": "0"},
-        {"posicion": 11, "nombre": "Equipo 11", "pj": 0, "pts": 0, "pg": 0, "pp": 0, "pe": 0, "gf": 0, "gc": 0, "dg": "0"},
-        {"posicion": 12, "nombre": "Equipo 12", "pj": 0, "pts": 0, "pg": 0, "pp": 0, "pe": 0, "gf": 0, "gc": 0, "dg": "0"},
-        {"posicion": 13, "nombre": "Equipo 13", "pj": 0, "pts": 0, "pg": 0, "pp": 0, "pe": 0, "gf": 0, "gc": 0, "dg": "0"},
-        {"posicion": 14, "nombre": "Equipo 14", "pj": 0, "pts": 0, "pg": 0, "pp": 0, "pe": 0, "gf": 0, "gc": 0, "dg": "0"},
-        {"posicion": 15, "nombre": "Equipo 15", "pj": 0, "pts": 0, "pg": 0, "pp": 0, "pe": 0, "gf": 0, "gc": 0, "dg": "0"},
-        {"posicion": 16, "nombre": "Águilas del Palmar", "pj": 1, "pts": 0, "pg": 0,"pp": 1, "pe": 0, "gf": 2, "gc": 3, "dg": "-1"}
+        {"posicion": 2, "nombre": "Solo Panas", "pj": 0, "pts": 0, "pg": 0, "pp": 0, "pe": 0, "gf": 0, "gc": 0, "dg": "0"},
+        {"posicion": 3, "nombre": "Estrella Juvenil", "pj": 0, "pts": 0, "pg": 0, "pp": 0, "pe": 0, "gf": 0, "gc": 0, "dg": "0"},
+        {"posicion": 4, "nombre": "Los Capos", "pj": 0, "pts": 0, "pg": 0, "pp": 0, "pe": 0, "gf": 0, "gc": 0, "dg": "0"},
+        {"posicion": 5, "nombre": "Atletic SF", "pj": 0, "pts": 0, "pg": 0, "pp": 0, "pe": 0, "gf": 0, "gc": 0, "dg": "0"},
+        {"posicion": 6, "nombre": "Milán", "pj": 0, "pts": 0, "pg": 0, "pp": 0, "pe": 0, "gf": 0, "gc": 0, "dg": "0"},
+        {"posicion": 7, "nombre": "Atlético San Rafael", "pj": 0, "pts": 0, "pg": 0, "pp": 0, "pe": 0, "gf": 0, "gc": 0, "dg": "0"},
+        {"posicion": 8, "nombre": "Águilas del Motilon", "pj": 0, "pts": 0, "pg": 0, "pp": 0, "pe": 0, "gf": 0, "gc": 0, "dg": "0"},
+        {"posicion": 9, "nombre": "Club Monte Olivo", "pj": 0, "pts": 0, "pg": 0, "pp": 0, "pe": 0, "gf": 0, "gc": 0, "dg": "0"},
+        {"posicion": 10, "nombre": "Independiente", "pj": 0, "pts": 0, "pg": 0, "pp": 0, "pe": 0, "gf": 0, "gc": 0, "dg": "0"},
+        {"posicion": 11, "nombre": "4 Decadas", "pj": 0, "pts": 0, "pg": 0, "pp": 0, "pe": 0, "gf": 0, "gc": 0, "dg": "0"},
+        {"posicion": 12, "nombre": "Águilas del Palmar", "pj": 1, "pts": 0, "pg": 0,"pp": 1, "pe": 0, "gf": 2, "gc": 3, "dg": "-1"}
     ]
 }
 

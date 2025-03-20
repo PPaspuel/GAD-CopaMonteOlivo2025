@@ -70,7 +70,7 @@ function renderizarTabla(data) {
             </thead>
             <tbody>
                 ${data.equipos.map(equipo => `
-                    <tr ${equipo.posicion === 16 ? 'class="zona-eliminacion"' : ''}>
+                    <tr ${equipo.posicion === 12 ? 'class="zona-eliminacion"' : ''}>
                         <td>${equipo.posicion}</td>
                         <td>${equipo.nombre}</td>
                         <td>${equipo.pj}</td>

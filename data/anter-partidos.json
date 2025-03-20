@@ -1,33 +1,15 @@
 [
     {
         "jornada": "Fecha 1",
-        "fecha": "Sabado 12/03",
+        "fecha": "Sábado 15/03/2025",
         "partidos": [
             {
-                "local": "Manta FC",
-                "visitante": "CD El Nacional",
-                "resultado": "0 - 0",
-                "hora": "12:00 am",
-                "serie": ["A"],
-                "etapa": "Primera Etapa"
-            },
-            {
-                "local": "Manta FC",
-                "visitante": "CD El Nacional",
-                "resultado": "0 - 0",
-                "hora": "13:00 pm",
-                "serie": ["A"],
-                "etapa": "Primera Etapa"
-            },
-            {
-                "local": "Manta FC",
-                "visitante": "CD El Nacional",
-                "resultado": "0 - 0",
-                "hora": "14:00 pm",
-                "serie": ["A"],
-                "etapa": "Primera Etapa"
+                "local": "San José",
+                "visitante": "Águilas del Palmar",
+                "resultado": "3 - 2",
+                "hora": "16:00 pm",
+                "serie": null
             }
-
         ]
     },
 
