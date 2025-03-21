@@ -1,74 +1,14 @@
 [
     {
         "jornada": "Fecha 1",
-        "fecha": "Sábado 15/03/2025",
+        "fecha": "Sábado 22/03/2025",
         "partidos": [
             {
-                "local": "San José",
-                "visitante": "Águilas del Palmar",
-                "resultado": "3 - 2",
-                "hora": "16:00 pm",
+                "local": null,
+                "visitante": null,
+                "resultado": null,
+                "hora": null,
                 "serie": null
-            }
-        ]
-    },
-
-    {
-        "jornada": "Fecha 1",
-        "fecha": "Domingo 13/03",
-        "partidos": [
-            {
-                "local": "Manta FC",
-                "visitante": "CD El Nacional",
-                "resultado": "0 - 0",
-                "hora": "12:00 am",
-                "serie": ["A"],
-                "etapa": "Primera Etapa"
-            },
-            {
-                "local": "Manta FC",
-                "visitante": "CD El Nacional",
-                "resultado": "0 - 0",
-                "hora": "13:00 pm",
-                "serie": ["A"],
-                "etapa": "Primera Etapa"
-            },
-            {
-                "local": "Manta FC",
-                "visitante": "CD El Nacional",
-                "resultado": "0 - 0",
-                "hora": "14:00 pm",
-                "serie": ["A"],
-                "etapa": "Primera Etapa"
-            }
-        ]
-    },
-
-    
-    {
-        "jornada": "Fecha 2",
-        "fecha": "Sabado 14/03",
-        "partidos": [
-            {
-                "local": "Manta FC",
-                "visitante": "CD El Nacional",
-                "resultado": "0 - 0",
-                "serie": ["A"],
-                "etapa": "Primera Etapa"
-            },
-            {
-                "local": "Manta FC",
-                "visitante": "CD El Nacional",
-                "resultado": "0 - 0",
-                "serie": ["A"],
-                "etapa": "Primera Etapa"
-            },
-            {
-                "local": "Manta FC",
-                "visitante": "CD El Nacional",
-                "resultado": "0 - 0",
-                "serie": ["A"],
-                "etapa": "Primera Etapa"
             }
         ]
     }

@@ -1,23 +1,86 @@
 [
     {
-        "nombre": "Palmeiras",
+        "nombre": "4 DKADAS",
         "jugadores": [
-            {"numero": 1, "nombre": "Carlos Huera"},
-            {"numero": 2, "nombre": "Andres Trujillo"}
+            {"numero": null, "nombre": null},
+            {"numero": null, "nombre": null}
         ]
     },
     {
-        "nombre": "San Jose",
+        "nombre": "SAN JOSÉ",
         "jugadores": [
-            {"numero": 10, "nombre": "David Ponce"},
-            {"numero": 7, "nombre": "Ariel Fantomimas"}
+            {"numero": null, "nombre": null},
+            {"numero": null, "nombre": null}
         ]
     },
     {
-        "nombre": "Solo Panas",
+        "nombre": "SOLO PANAS",
         "jugadores": [
-            {"numero": 5, "nombre": "Sander Armas"},
-            {"numero": 9, "nombre": "Santiago Pilacuan"}
+            {"numero": null, "nombre": null},
+            {"numero": null, "nombre": null}
+        ]
+    },
+    {
+        "nombre": "ATHLETICO SAN RAFAEL",
+        "jugadores": [
+            {"numero": null, "nombre": null},
+            {"numero": null, "nombre": null}
+        ]
+    },
+    {
+        "nombre": "ATLÉTICO S.F",
+        "jugadores": [
+            {"numero": null, "nombre": null},
+            {"numero": null, "nombre": null}
+        ]
+    },
+    {
+        "nombre": "INDEPENDIENTE S.R",
+        "jugadores": [
+            {"numero": null, "nombre": null},
+            {"numero": null, "nombre": null}
+        ]
+    },
+    {
+        "nombre": "LOS CAPOS",
+        "jugadores": [
+            {"numero": null, "nombre": null},
+            {"numero": null, "nombre": null}
+        ]
+    },
+    {
+        "nombre": "ÁGUILAS DEL PALMAR",
+        "jugadores": [
+            {"numero": null, "nombre": null},
+            {"numero": null, "nombre": null}
+        ]
+    },
+    {
+        "nombre": "ÁGUILAS DEL MOTILÓN",
+        "jugadores": [
+            {"numero": null, "nombre": null},
+            {"numero": null, "nombre": null}
+        ]
+    },
+    {
+        "nombre": "ESTRELLA JUVENIL",
+        "jugadores": [
+            {"numero": null, "nombre": null},
+            {"numero": null, "nombre": null}
+        ]
+    },
+    {
+        "nombre": "C.D. MONTE OLIVO",
+        "jugadores": [
+            {"numero": null, "nombre": null},
+            {"numero": null, "nombre": null}
+        ]
+    },
+    {
+        "nombre": "MILAN",
+        "jugadores": [
+            {"numero": null, "nombre": null},
+            {"numero": null, "nombre": null}  
         ]
     }
 ]
