@@ -1,8 +1,8 @@
 {
     "goleadores": [
-        {"nombre": "Ariel Narváez", "equipo": "San José", "goles": 2},
-        {"nombre": "Oscar Lucero", "equipo": "San José", "goles": 1},
-        {"nombre": "Alexis Chandi", "equipo": "Águilas del Palmar", "goles": 1},
-        {"nombre": "Ronny Armas", "equipo": "Águilas del Palmar", "goles": 1}
+        {"nombre": "Ariel Narváez", "equipo": "SAN JOSÉ", "goles": 2},
+        {"nombre": "Oscar Lucero", "equipo": "SAN JOSÉ", "goles": 1},
+        {"nombre": "Alexis Chandi", "equipo": "ÁGUILAS DEL PALMAR", "goles": 1},
+        {"nombre": "Ronny Armas", "equipo": "ÁGUILAS DEL PALMAR", "goles": 1}
     ]
 }
