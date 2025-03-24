@@ -4,10 +4,51 @@
         "fecha": "Sábado 22/03/2025",
         "partidos": [
             {
-                "local": null,
-                "visitante": null,
-                "resultado": null,
-                "hora": null,
+                "local": "4 DKADAS",
+                "visitante": "INDEPENDIENTE S.R",
+                "resultado": "6 - 2",
+                "hora": "12:00 am",
+                "serie": null
+            },
+            {
+                "local": "MILAN",
+                "visitante": "ÁGUILAS DEL MOTILÓN",
+                "resultado": "8 - 0",
+                "hora": "14:00 pm",
+                "serie": null
+            },
+            {
+                "local": "SAN JOSÉ",
+                "visitante": "ESTRELLA JUVENIL",
+                "resultado": "0 - 1",
+                "hora": "16:00 pm",
+                "serie": null
+            }
+        ]
+    },
+    {
+        "jornada": "Fecha 1",
+        "fecha": "Domingo 23/03/2025",
+        "partidos": [
+            {
+                "local": "ATLÉTICO S.F",
+                "visitante": "LOS CAPOS",
+                "resultado": "6 - 2",
+                "hora": "12:00 am",
+                "serie": null
+            },
+            {
+                "local": "C.D MONTE OLIVO",
+                "visitante": "SOLO PANAS",
+                "resultado": "3 - 5",
+                "hora": "14:00 pm",
+                "serie": null
+            },
+            {
+                "local": " ATHLETICO SAN RAFAEL",
+                "visitante": "ÁGUILAS DEL PALMAR",
+                "resultado": "4 - 1",
+                "hora": "16:00 pm",
                 "serie": null
             }
         ]
