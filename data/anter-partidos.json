@@ -52,5 +52,59 @@
                 "serie": null
             }
         ]
+    },
+    {
+        "jornada": "Fecha 2",
+        "fecha": "Sábado 29/03/2025",
+        "partidos": [
+            {
+                "local": "SAN JOSÉ",
+                "visitante": "LOS CAPOS",
+                "resultado": "3 - 2",
+                "hora": "12:00 am",
+                "serie": null
+            },
+            {
+                "local": "SOLO PANAS",
+                "visitante": "4 DKADAS",
+                "resultado": "13 - 1",
+                "hora": "14:00 pm",
+                "serie": null
+            },
+            {
+                "local": "ATLÉTICO S.F",
+                "visitante": "ÁGUILAS DEL PALMAR",
+                "resultado": "3 - 1",
+                "hora": "16:00 pm",
+                "serie": null
+            }
+        ]
+    },
+    {
+        "jornada": "Fecha 2",
+        "fecha": "Domingo 30/03/2025",
+        "partidos": [
+            {
+                "local": "ÁGUILAS DEL MOTILÓN",
+                "visitante": "ATHLETICO SAN RAFAEL",
+                "resultado": "Postergado",
+                "hora": "12:00 am",
+                "serie": null
+            },
+            {
+                "local": "INDEPENDIENTE S.R",
+                "visitante": "MILAN",
+                "resultado": "6 - 4",
+                "hora": "14:00 pm",
+                "serie": null
+            },
+            {
+                "local": "C.D MONTE OLIVO",
+                "visitante": "ESTRELLA JUVENIL",
+                "resultado": "3 - 2",
+                "hora": "16:00 pm",
+                "serie": null
+            }
+        ]
     }
 ]
