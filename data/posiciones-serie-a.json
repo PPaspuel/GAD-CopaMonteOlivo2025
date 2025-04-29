@@ -1,18 +1,18 @@
 {
     "torneo": "SERIE A - FASE INICIAL",
     "equipos": [
-        {"posicion": 1, "nombre": "SAN JOSÉ", "pj": 4, "pts": 7, "pg": 2, "pp": 1, "pe": 1, "gf": 8, "gc": 7, "dg": "+1"},
-        {"posicion": 2, "nombre": "SOLO PANAS", "pj": 3, "pts": 6, "pg": 2, "pp": 1, "pe": 0, "gf": 21, "gc": 11, "dg": "+10"},
-        {"posicion": 3, "nombre": "MILAN", "pj": 3, "pts": 6, "pg": 2, "pp": 1, "pe": 0, "gf": 18, "gc": 8, "dg": "+10"},
-        {"posicion": 4, "nombre": "ATHLETICO SAN RAFAEL", "pj": 2, "pts": 6, "pg": 2, "pp": 0, "pe": 0, "gf": 10, "gc": 4, "dg": "+6"},
-        {"posicion": 5, "nombre": "ESTRELLA JUVENIL", "pj": 3, "pts": 6, "pg": 2, "pp": 1, "pe": 0, "gf": 9, "gc": 6, "dg": "+3"},
-        {"posicion": 6, "nombre": "ATLÉTICO S.F", "pj": 3, "pts": 6, "pg": 2, "pp": 1, "pe": 0, "gf": 12, "gc": 9, "dg": "+3"},
-        {"posicion": 7, "nombre": "INDEPENDIENTE S.R", "pj": 3, "pts": 6, "pg": 2, "pp": 1, "pe": 0, "gf": 15, "gc": 13, "dg": "+2"},
-        {"posicion": 8, "nombre": "4 DKADAS", "pj": 3, "pts": 6, "pg": 2, "pp": 1, "pe": 0, "gf": 11, "gc": 18, "dg": "-7"},
-        {"posicion": 9, "nombre": "C.D MONTE OLIVO", "pj": 3, "pts": 4, "pg": 1, "pp": 1, "pe": 1, "gf": 8, "gc": 9, "dg": "-1"},
-        {"posicion": 10, "nombre": "LOS CAPOS", "pj": 3, "pts": 0, "pg": 0, "pp": 3, "pe": 0, "gf": 7, "gc": 15, "dg": "-8"},
-        {"posicion": 11, "nombre": "ÁGUILAS DEL MOTILÓN", "pj": 2, "pts": 0, "pg": 0, "pp": 2, "pe": 0, "gf": 3, "gc": 12, "dg": "-9"},
-        {"posicion": 12, "nombre": "ÁGUILAS DEL PALMAR", "pj": 4, "pts": 0, "pg": 0,"pp": 4, "pe": 0, "gf": 6, "gc": 16, "dg": "-10"}
+        {"posicion": 1, "nombre": "SAN JOSÉ", "pj": 5, "pts": 10, "pg": 3, "pp": 1, "pe": 1, "gf": 14, "gc": 10, "dg": "+4"},
+        {"posicion": 2, "nombre": "ATHLETICO SAN RAFAEL", "pj": 3, "pts": 9, "pg": 3, "pp": 0, "pe": 0, "gf": 24, "gc": 7, "dg": "+17"},
+        {"posicion": 3, "nombre": "MILAN", "pj": 4, "pts": 9, "pg": 3, "pp": 1, "pe": 0, "gf": 27, "gc": 14, "dg": "+13"},
+        {"posicion": 4, "nombre": "INDEPENDIENTE S.R", "pj": 4, "pts": 9, "pg": 3, "pp": 1, "pe": 0, "gf": 26, "gc": 15, "dg": "+11"},
+        {"posicion": 5, "nombre": "SOLO PANAS", "pj": 4, "pts": 6, "pg": 2, "pp": 2, "pe": 0, "gf": 27, "gc": 20, "dg": "+7"},
+        {"posicion": 6, "nombre": "ESTRELLA JUVENIL", "pj": 4, "pts": 6, "pg": 2, "pp": 2, "pe": 0, "gf": 11, "gc": 9, "dg": "+2"},
+        {"posicion": 7, "nombre": "ATLÉTICO S.F", "pj": 4, "pts": 6, "pg": 2, "pp": 2, "pe": 0, "gf": 14, "gc": 20, "dg": "-6"},
+        {"posicion": 8, "nombre": "4 DKADAS", "pj": 4, "pts": 6, "pg": 2, "pp": 2, "pe": 0, "gf": 14, "gc": 32, "dg": "-18"},
+        {"posicion": 9, "nombre": "C.D MONTE OLIVO", "pj": 4, "pts": 5, "pg": 1, "pp": 1, "pe": 2, "gf": 10, "gc": 11, "dg": "-1"},
+        {"posicion": 10, "nombre": "LOS CAPOS", "pj": 4, "pts": 3, "pg": 1, "pp": 3, "pe": 0, "gf": 10, "gc": 17, "dg": "-7"},
+        {"posicion": 11, "nombre": "ÁGUILAS DEL PALMAR", "pj": 5, "pts": 1, "pg": 0,"pp": 4, "pe": 1, "gf": 8, "gc": 18, "dg": "-10"},
+        {"posicion": 12, "nombre": "ÁGUILAS DEL MOTILÓN", "pj": 3, "pts": 0, "pg": 0, "pp": 3, "pe": 0, "gf": 6, "gc": 18, "dg": "-12"}
     ]
 }
 
