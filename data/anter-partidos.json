@@ -214,5 +214,59 @@
                 "serie": null
             }
         ]
+    },
+    {
+        "jornada": "Fecha 5",
+        "fecha": "Sábado 03/05/2025",
+        "partidos": [
+            {
+                "local": "C.D. MONTE OLIVO",
+                "visitante": "ÁGUILAS DEL MOTILÓN",
+                "resultado": "9 - 2",
+                "hora": "12:00 am",
+                "serie": null
+            },
+            {
+                "local": "SAN JOSÉ",
+                "visitante": "INDEPENDIENTE S.R",
+                "resultado": "7 - 2",
+                "hora": "14:00 pm",
+                "serie": null
+            },
+            {
+                "local": "SOLO PANAS",
+                "visitante": "LOS CAPOS",
+                "resultado": "4 - 2",
+                "hora": "16:00 pm",
+                "serie": null
+            }
+        ]
+    },
+    {
+        "jornada":"Fecha 5",
+        "fecha": "Domingo 04/05/2025",
+        "partidos": [
+            {
+                "local": "ATLÉTICO S.F",
+                "visitante": "4 DKADAS",
+                "resultado": "5 - 7",
+                "hora": "12:00 am",
+                "serie": null
+            },
+            {
+                "local": "ESTRELLA JUVENIL",
+                "visitante": "ÁGUILAS DEL PALMAR",
+                "resultado": "2 - 1",
+                "hora": "14:00 pm",
+                "serie": null
+            },
+            {
+                "local": "ATHLETICO SAN RAFAEL",
+                "visitante": "MILAN",
+                "resultado": "5 - 1",
+                "hora": "16:00 pm",
+                "serie": null
+            }
+        ]
     }
 ]
