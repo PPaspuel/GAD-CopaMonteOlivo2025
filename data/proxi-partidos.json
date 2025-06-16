@@ -1,47 +1,47 @@
 [
     {
-        "jornada": "Fecha 11",
-        "fecha": "Sábado 14/06/2025",
+        "jornada": "Fecha 9",
+        "fecha": "Sábado 31/05/2025",
         "partidos": [
             {
-                "local": "C.D. MONTE OLIVO",
-                "visitante": "LOS CAPOS",
+                "local": "ÁGUILAS DEL MOTILÓN",
+                "visitante": "SOLO PANAS",
                 "hora": "12:00 am",
                 "serie": null
             },
             {
-                "local": "ESTRELLA JUVENIL",
-                "visitante": "SOLO PANAS",
+                "local": "C.D. MONTE OLIVO",
+                "visitante": "ATHLETICO SAN RAFAEL",
                 "hora": "14:00 pm",
                 "serie": null
             },
             {
-                "local": "ATHLETICO SAN RAFAEL",
-                "visitante": "INDEPENDIENTE S.R",
+                "local": "ESTRELLA JUVENIL",
+                "visitante": "MILAN",
                 "hora": "16:00 pm",
                 "serie": null
             }
         ]
     },
     {
-        "jornada": "Fecha 11",
-        "fecha": "Domingo 15/06/2025",
+        "jornada": "Fecha 9",
+        "fecha": "Domingo 01/06/2025",
         "partidos": [
             {
                 "local": "SAN JOSÉ",
-                "visitante": "ÁGUILAS DEL PALMAR",
+                "visitante": "ATLÉTICO S.F",
                 "hora": "12:00 am",
                 "serie": null
             },
             {
-                "local": "ATLÉTICO S.F",
-                "visitante": "ÁGUILAS DEL MOTILÓN",
+                "local": "LOS CAPOS",
+                "visitante": "4 DKADAS",
                 "hora": "14:00 pm",
                 "serie": null
             },
             {
-                "local": "MILAN",
-                "visitante": "4 DKADAS",
+                "local": "ÁGUILAS DEL PALMAR",
+                "visitante": "INDEPENDIENTE S.R",
                 "hora": "16:00 pm",
                 "serie": null
             }

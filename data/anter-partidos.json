@@ -538,5 +538,59 @@
                 "serie": null
             }
         ]
+    },
+    {
+        "jornada": "Fecha 11",
+        "fecha": "Sábado 14/06/2025",
+        "partidos": [
+            {
+                "local": "C.D. MONTE OLIVO",
+                "visitante": "LOS CAPOS",
+                "resultado": "4 - 1",
+                "hora": "12:00 am",
+                "serie": null
+            },
+            {
+                "local": "ESTRELLA JUVENIL",
+                "visitante": "SOLO PANAS",
+                "resultado": "2 - 4",
+                "hora": "14:00 pm",
+                "serie": null
+            },
+            {
+                "local": "ATHLETICO SAN RAFAEL",
+                "visitante": "INDEPENDIENTE S.R",
+                "resultado": "3 - 3",
+                "hora": "16:00 pm",
+                "serie": null
+            }
+        ]
+    },
+    {
+        "jornada": "Fecha 11",
+        "fecha": "Domingo 15/06/2025",
+        "partidos": [
+            {
+                "local": "SAN JOSÉ",
+                "visitante": "ÁGUILAS DEL PALMAR",
+                "resultado": "4 - 5",
+                "hora": "12:00 am",
+                "serie": null
+            },
+            {
+                "local": "ATLÉTICO S.F",
+                "visitante": "ÁGUILAS DEL MOTILÓN",
+                "resultado": "6 - 5",
+                "hora": "14:00 pm",
+                "serie": null
+            },
+            {
+                "local": "MILAN",
+                "visitante": "4 DKADAS",
+                "resultado": "6 - 5",
+                "hora": "16:00 pm",
+                "serie": null
+            }
+        ]
     }
 ]
