@@ -439,20 +439,20 @@
                 "local": "ÁGUILAS DEL MOTILÓN",
                 "visitante": "SOLO PANAS",
                 "hora": "12:00 am",
-                "resultado": "Postergado",
+                "resultado": "0 - 1",
                 "serie": null
             },
             {
                 "local": "C.D. MONTE OLIVO",
                 "visitante": "ATHLETICO SAN RAFAEL",
-                "resultado": "Postergado",
+                "resultado": "8 - 1",
                 "hora": "14:00 pm",
                 "serie": null
             },
             {
                 "local": "ESTRELLA JUVENIL",
                 "visitante": "MILAN",
-                "resultado": "Postergado",
+                "resultado": "5 - 1",
                 "hora": "16:00 pm",
                 "serie": null
             }
@@ -465,21 +465,21 @@
             {
                 "local": "SAN JOSÉ",
                 "visitante": "ATLÉTICO S.F",
-                "resultado": "Postergado",
+                "resultado": "4 - 6",
                 "hora": "12:00 am",
                 "serie": null
             },
             {
                 "local": "LOS CAPOS",
                 "visitante": "4 DKADAS",
-                "resultado": "Postergado",
+                "resultado": "3 - 1",
                 "hora": "14:00 pm",
                 "serie": null
             },
             {
                 "local": "ÁGUILAS DEL PALMAR",
                 "visitante": "INDEPENDIENTE S.R",
-                "resultado": "Postergado",
+                "resultado": "3 - 1",
                 "hora": "16:00 pm",
                 "serie": null
             }
