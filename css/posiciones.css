@@ -160,10 +160,10 @@ body {
     font-weight: bold;
 }
 
-.tabla-posiciones tr.zona-eliminacion {
+/*.tabla-posiciones tr.zona-eliminacion {
     background-color: #ffcccc !important;
     font-weight: bold;
-}
+}*/
 
 /* =================== BOTONES SERIES =================== */
 .selector-series {

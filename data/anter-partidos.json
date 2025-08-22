@@ -1,596 +1,164 @@
 [
     {
         "jornada": "Fecha 1",
-        "fecha": "Sábado 22/03/2025",
+        "fecha": "Sábado 2/08/2025",
         "partidos": [
             {
-                "local": "4 DKADAS",
+                "local": "ATLÉTICO S.F",
                 "visitante": "INDEPENDIENTE S.R",
-                "resultado": "6 - 2",
+                "resultado": "2 - 4",
                 "hora": "12:00 am",
-                "serie": null
+                "serie": "B"
             },
             {
-                "local": "MILAN",
-                "visitante": "ÁGUILAS DEL MOTILÓN",
-                "resultado": "8 - 0",
+                "local": " ATHLETICO SAN RAFAEL",
+                "visitante": "ÁGUILAS DEL PALMAR",
+                "resultado": "3 - 1",
                 "hora": "14:00 pm",
-                "serie": null
+                "serie": "A"
             },
             {
-                "local": "SAN JOSÉ",
-                "visitante": "ESTRELLA JUVENIL",
-                "resultado": "0 - 1",
+                "local": "SOLO PANAS",
+                "visitante": "C.D MONTE OLIVO",
+                "resultado": "6 - 0",
                 "hora": "16:00 pm",
-                "serie": null
+                "serie": "A"
             }
         ]
     },
     {
         "jornada": "Fecha 1",
-        "fecha": "Domingo 23/03/2025",
-        "partidos": [
-            {
-                "local": "ATLÉTICO S.F",
-                "visitante": "LOS CAPOS",
-                "resultado": "6 - 2",
-                "hora": "12:00 am",
-                "serie": null
-            },
-            {
-                "local": "C.D MONTE OLIVO",
-                "visitante": "SOLO PANAS",
-                "resultado": "3 - 5",
-                "hora": "14:00 pm",
-                "serie": null
-            },
-            {
-                "local": " ATHLETICO SAN RAFAEL",
-                "visitante": "ÁGUILAS DEL PALMAR",
-                "resultado": "4 - 1",
-                "hora": "16:00 pm",
-                "serie": null
-            }
-        ]
-    },
-    {
-        "jornada": "Fecha 2",
-        "fecha": "Sábado 29/03/2025",
-        "partidos": [
-            {
-                "local": "SAN JOSÉ",
-                "visitante": "LOS CAPOS",
-                "resultado": "3 - 2",
-                "hora": "12:00 am",
-                "serie": null
-            },
-            {
-                "local": "SOLO PANAS",
-                "visitante": "4 DKADAS",
-                "resultado": "13 - 1",
-                "hora": "14:00 pm",
-                "serie": null
-            },
-            {
-                "local": "ATLÉTICO S.F",
-                "visitante": "ÁGUILAS DEL PALMAR",
-                "resultado": "3 - 1",
-                "hora": "16:00 pm",
-                "serie": null
-            }
-        ]
-    },
-    {
-        "jornada": "Fecha 2",
-        "fecha": "Domingo 30/03/2025",
-        "partidos": [
-            {
-                "local": "ÁGUILAS DEL MOTILÓN",
-                "visitante": "ATHLETICO SAN RAFAEL",
-                "resultado": "4 - 7",
-                "hora": "12:00 am",
-                "serie": null
-            },
-            {
-                "local": "INDEPENDIENTE S.R",
-                "visitante": "MILAN",
-                "resultado": "6 - 4",
-                "hora": "14:00 pm",
-                "serie": null
-            },
-            {
-                "local": "C.D MONTE OLIVO",
-                "visitante": "ESTRELLA JUVENIL",
-                "resultado": "3 - 2",
-                "hora": "16:00 pm",
-                "serie": null
-            }
-        ]
-    },
-    {
-        "jornada": "Fecha 3",
-        "fecha": "Sábado 05/04/2025",
-        "partidos": [
-            {
-                "local": "SOLO PANAS",
-                "visitante": "INDEPENDIENTE S.R",
-                "resultado": "3 - 7",
-                "hora": "12:00 am",
-                "serie": null
-            },
-            {
-                "local": "MILAN",
-                "visitante": "ÁGUILAS DEL PALMAR",
-                "resultado": "6 - 2",
-                "hora": "14:00 pm",
-                "serie": null
-            },
-            {
-                "local": "LOS CAPOS",
-                "visitante": "ATHLETICO SAN RAFAEL",
-                "resultado": "3 - 6",
-                "hora": "16:00 pm",
-                "serie": null
-            }
-        ]
-    },
-    {
-        "jornada": "Fecha 3",
-        "fecha": "Domingo 06/04/2025",
+        "fecha": "Domingo 03/08/2025",
         "partidos": [
             {
                 "local": "ESTRELLA JUVENIL",
-                "visitante": "ATLÉTICO S.F",
-                "resultado": "6 - 3",
+                "visitante": "MILAN",
+                "resultado": "3 - 6",
                 "hora": "12:00 am",
-                "serie": null
+                "serie": "A"
             },
             {
-                "local": "ÁGUILAS DEL MOTILÓN",
-                "visitante": "4 DKADAS",
+                "local": "4 DKADAS",
+                "visitante": "ÁGUILAS DEL MOTILÓN",
                 "resultado": "3 - 4",
                 "hora": "14:00 pm",
-                "serie": null
-            },
-            {
-                "local": "C.D. MONTE OLIVO",
-                "visitante": "SAN JOSÉ",
-                "resultado": "2 - 2",
-                "hora": "16:00 pm",
-                "serie": null
-            }
-        ]
-    },
-    {
-        "jornada": "Fecha 4",
-        "fecha": "Sábado 26/04/2025",
-        "partidos": [
-            {
-                "local": "LOS CAPOS",
-                "visitante": "ESTRELLA JUVENIL",
-                "resultado": "3 - 2",
-                "hora": "12:00 am",
-                "serie": null
-            },
-            {
-                "local": "4 DKADAS",
-                "visitante": "ATHLETICO SAN RAFAEL",
-                "resultado": "3 - 14",
-                "hora": "14:00 pm",
-                "serie": null
-            },
-            {
-                "local": "SOLO PANAS",
-                "visitante": "MILAN",
-                "resultado": "6 - 9",
-                "hora": "16:00 pm",
-                "serie": null
-            }
-        ]
-    },
-    {
-        "jornada":"Fecha 4",
-        "fecha": "Domingo 27/04/2025",
-        "partidos": [
-            {
-                "local": "INDEPENDIENTE S.R",
-                "visitante": "ATLÉTICO S.F",
-                "resultado": "11 - 2",
-                "hora": "12:00 am",
-                "serie": null
-            },
-            {
-                "local": "ÁGUILAS DEL MOTILÓN",
-                "visitante": "SAN JOSÉ",
-                "resultado": "3 - 6",
-                "hora": "14:00 pm",
-                "serie": null
-            },
-            {
-                "local": "ÁGUILAS DEL PALMAR",
-                "visitante": "C.D. MONTE OLIVO",
-                "resultado": "2 - 2",
-                "hora": "16:00 pm",
-                "serie": null
-            }
-        ]
-    },
-    {
-        "jornada": "Fecha 5",
-        "fecha": "Sábado 03/05/2025",
-        "partidos": [
-            {
-                "local": "C.D. MONTE OLIVO",
-                "visitante": "ÁGUILAS DEL MOTILÓN",
-                "resultado": "9 - 2",
-                "hora": "12:00 am",
-                "serie": null
+                "serie": "B"
             },
             {
                 "local": "SAN JOSÉ",
-                "visitante": "INDEPENDIENTE S.R",
-                "resultado": "7 - 2",
-                "hora": "14:00 pm",
-                "serie": null
-            },
-            {
-                "local": "SOLO PANAS",
                 "visitante": "LOS CAPOS",
-                "resultado": "4 - 2",
-                "hora": "16:00 pm",
-                "serie": null
-            }
-        ]
-    },
-    {
-        "jornada":"Fecha 5",
-        "fecha": "Domingo 04/05/2025",
-        "partidos": [
-            {
-                "local": "ATLÉTICO S.F",
-                "visitante": "4 DKADAS",
-                "resultado": "5 - 7",
-                "hora": "12:00 am",
-                "serie": null
-            },
-            {
-                "local": "ESTRELLA JUVENIL",
-                "visitante": "ÁGUILAS DEL PALMAR",
-                "resultado": "2 - 1",
-                "hora": "14:00 pm",
-                "serie": null
-            },
-            {
-                "local": "ATHLETICO SAN RAFAEL",
-                "visitante": "MILAN",
-                "resultado": "5 - 1",
-                "hora": "16:00 pm",
-                "serie": null
-            }
-        ]
-    },
-    {
-        "jornada": "Fecha 6",
-        "fecha": "Sábado 10/05/2025",
-        "partidos": [
-            {
-                "local": "ÁGUILAS DEL PALMAR",
-                "visitante": "LOS CAPOS",
-                "resultado": "2 - 0",
-                "hora": "12:00 am",
-                "serie": null
-            },
-            {
-                "local": "ÁGUILAS DEL MOTILÓN",
-                "visitante": "ESTRELLA JUVENIL",
-                "resultado": "0 - 7",
-                "hora": "14:00 pm",
-                "serie": null
-            },
-            {
-                "local": "INDEPENDIENTE S.R",
-                "visitante": "C.D. MONTE OLIVO",
-                "resultado": "0 - 2",
-                "hora": "16:00 pm",
-                "serie": null
-            }
-        ]
-    },
-    {
-        "jornada":"Fecha 6",
-        "fecha": "Domingo 11/05/2025",
-        "partidos": [
-            {
-                "local": "ATLÉTICO S.F",
-                "visitante": "MILAN",
-                "resultado": "0 - 2",
-                "hora": "12:00 am",
-                "serie": null
-            },
-            {
-                "local": "4 DKADAS",
-                "visitante": "SAN JOSÉ",
-                "resultado": "2 - 0",
-                "hora": "14:00 pm",
-                "serie": null
-            },
-            {
-                "local": "SOLO PANAS",
-                "visitante": "ATHLETICO SAN RAFAEL",
-                "resultado": "4 - 7",
-                "hora": "16:00 pm",
-                "serie": null
-            }
-        ]
-    },
-    {
-        "jornada": "Fecha 7",
-        "fecha": "Sábado 17/05/2025",
-        "partidos": [
-            {
-                "local": "ESTRELLA JUVENIL",
-                "visitante": "INDEPENDIENTE S.R",
-                "resultado": "11 - 3",
-                "hora": "12:00 am",
-                "serie": null
-            },
-            {
-                "local": "ATLÉTICO S.F",
-                "visitante": "ATHLETICO SAN RAFAEL",
-                "resultado": "3 - 6",
-                "hora": "14:00 pm",
-                "serie": null
-            },
-            {
-                "local": "C.D. MONTE OLIVO",
-                "visitante": "4 DKADAS",
-                "resultado": "17 - 6",
-                "hora": "16:00 pm",
-                "serie": null
-            }
-        ]
-    },
-    {
-        "jornada": "Fecha 7",
-        "fecha": "Domingo 18/05/2025",
-        "partidos": [
-            {
-                "local": "LOS CAPOS",
-                "visitante": "ÁGUILAS DEL MOTILÓN",
-                "resultado": "8 - 9",
-                "hora": "12:00 am",
-                "serie": null
-            },
-            {
-                "local": "SAN JOSÉ",
-                "visitante": "MILAN",
-                "resultado": "0 - 2",
-                "hora": "14:00 pm",
-                "serie": null
-            },
-            {
-                "local": "ÁGUILAS DEL PALMAR",
-                "visitante": "SOLO PANAS",
-                "resultado": "4 - 3",
-                "hora": "16:00 pm",
-                "serie": null
-            }
-        ]
-    },
-    {
-        "jornada": "Fecha 8",
-        "fecha": "Sábado 24/05/2025",
-        "partidos": [
-            {
-                "local": "INDEPENDIENTE S.R",
-                "visitante": "LOS CAPOS",
-                "resultado": "2 - 5",
-                "hora": "12:00 am",
-                "serie": null
-            },
-            {
-                "local": "4 DKADAS",
-                "visitante": "ESTRELLA JUVENIL",
-                "resultado": "1 - 9",
-                "hora": "14:00 pm",
-                "serie": null
-            },
-            {
-                "local": "SOLO PANAS",
-                "visitante": "ATLÉTICO S.F",
-                "resultado": "6 - 3",
-                "hora": "16:00 pm",
-                "serie": null
-            }
-        ]
-    },
-    {
-        "jornada": "Fecha 8",
-        "fecha": "Domingo 25/05/2025",
-        "partidos": [
-            {
-                "local": "MILAN",
-                "visitante": "C.D. MONTE OLIVO",
-                "resultado": "1 - 9",
-                "hora": "12:00 am",
-                "serie": null
-            },
-            {
-                "local": "ÁGUILAS DEL PALMAR",
-                "visitante": "ÁGUILAS DEL MOTILÓN",
-                "resultado": "3 - 2",
-                "hora": "14:00 pm",
-                "serie": null
-            },
-            {
-                "local": "ATHLETICO SAN RAFAEL",
-                "visitante": "SAN JOSÉ",
-                "resultado": "0 - 0",
-                "hora": "16:00 pm",
-                "serie": null
-            }
-        ]
-    },
-    {
-        "jornada": "Fecha 9",
-        "fecha": "Sábado 31/05/2025",
-        "partidos": [
-            {
-                "local": "ÁGUILAS DEL MOTILÓN",
-                "visitante": "SOLO PANAS",
-                "hora": "12:00 am",
-                "resultado": "0 - 1",
-                "serie": null
-            },
-            {
-                "local": "C.D. MONTE OLIVO",
-                "visitante": "ATHLETICO SAN RAFAEL",
-                "resultado": "8 - 1",
-                "hora": "14:00 pm",
-                "serie": null
-            },
-            {
-                "local": "ESTRELLA JUVENIL",
-                "visitante": "MILAN",
-                "resultado": "5 - 1",
-                "hora": "16:00 pm",
-                "serie": null
-            }
-        ]
-    },
-    {
-        "jornada": "Fecha 9",
-        "fecha": "Domingo 01/06/2025",
-        "partidos": [
-            {
-                "local": "SAN JOSÉ",
-                "visitante": "ATLÉTICO S.F",
-                "resultado": "4 - 6",
-                "hora": "12:00 am",
-                "serie": null
-            },
-            {
-                "local": "LOS CAPOS",
-                "visitante": "4 DKADAS",
-                "resultado": "3 - 1",
-                "hora": "14:00 pm",
-                "serie": null
-            },
-            {
-                "local": "ÁGUILAS DEL PALMAR",
-                "visitante": "INDEPENDIENTE S.R",
-                "resultado": "3 - 1",
-                "hora": "16:00 pm",
-                "serie": null
-            }
-        ]
-    },
-    {
-        "jornada": "Fecha 10",
-        "fecha": "Sábado 07/06/2025",
-        "partidos": [
-            {
-                "local": "4 DKADAS",
-                "visitante": "ÁGUILAS DEL PALMAR",
-                "resultado": "6 - 8",
-                "hora": "12:00 am",
-                "serie": null
-            },
-            {
-                "local": "MILAN",
-                "visitante": "LOS CAPOS",
-                "resultado": "1 - 2",
-                "hora": "14:00 pm",
-                "serie": null
-            },
-            {
-                "local": "SAN JOSÉ",
-                "visitante": "SOLO PANAS",
-                "resultado": "1 - 16",
-                "hora": "16:00 pm",
-                "serie": null
-            }
-        ]
-    },
-    {
-        "jornada": "Fecha 10",
-        "fecha": "Domingo 08/06/2025",
-        "partidos": [
-            {
-                "local": "ATLÉTICO S.F",
-                "visitante": "C.D. MONTE OLIVO",
-                "resultado": "7 - 14",
-                "hora": "12:00 am",
-                "serie": null
-            },
-            {
-                "local": "INDEPENDIENTE S.R",
-                "visitante": "ÁGUILAS DEL MOTILÓN",
-                "resultado": "5 - 7",
-                "hora": "14:00 pm",
-                "serie": null
-            },
-            {
-                "local": "ESTRELLA JUVENIL",
-                "visitante": "ATHLETICO SAN RAFAEL",
-                "resultado": "4 - 4",
-                "hora": "16:00 pm",
-                "serie": null
-            }
-        ]
-    },
-    {
-        "jornada": "Fecha 11",
-        "fecha": "Sábado 14/06/2025",
-        "partidos": [
-            {
-                "local": "C.D. MONTE OLIVO",
-                "visitante": "LOS CAPOS",
-                "resultado": "4 - 1",
-                "hora": "12:00 am",
-                "serie": null
-            },
-            {
-                "local": "ESTRELLA JUVENIL",
-                "visitante": "SOLO PANAS",
-                "resultado": "2 - 4",
-                "hora": "14:00 pm",
-                "serie": null
-            },
-            {
-                "local": "ATHLETICO SAN RAFAEL",
-                "visitante": "INDEPENDIENTE S.R",
                 "resultado": "3 - 3",
                 "hora": "16:00 pm",
-                "serie": null
+                "serie": "B"
             }
         ]
     },
     {
-        "jornada": "Fecha 11",
-        "fecha": "Domingo 15/06/2025",
+        "jornada": "Fecha 2",
+        "fecha": "Sábado 09/08/2025",
         "partidos": [
             {
-                "local": "SAN JOSÉ",
-                "visitante": "ÁGUILAS DEL PALMAR",
-                "resultado": "4 - 5",
+                "local": "LOS CAPOS",
+                "visitante": "4 DKADAS",
+                "resultado": "6 - 4",
                 "hora": "12:00 am",
-                "serie": null
+                "serie": "B"
             },
             {
-                "local": "ATLÉTICO S.F",
-                "visitante": "ÁGUILAS DEL MOTILÓN",
-                "resultado": "6 - 5",
+                "local": "INDEPENDIENTE S.R",
+                "visitante": "SAN JOSÉ",
+                "resultado": "1 - 4",
                 "hora": "14:00 pm",
-                "serie": null
+                "serie": "B"
+            },
+            {
+                "local": "ESTRELLA JUVENIL",
+                "visitante": "C.D MONTE OLIVO",
+                "resultado": "1 - 0",
+                "hora": "16:00 pm",
+                "serie": "A"
+            }
+        ]
+    },
+    {
+        "jornada": "Fecha 2",
+        "fecha": "Domingo 10/08/2025",
+        "partidos": [
+            {
+                "local": "MILAN",
+                "visitante": "ATHLETICO SAN RAFAEL",
+                "resultado": "1 - 10",
+                "hora": "12:00 am",
+                "serie": "A"
+            },
+            {
+                "local": "ÁGUILAS DEL PALMAR",
+                "visitante": "SOLO PANAS",
+                "resultado": "1 - 6",
+                "hora": "14:00 pm",
+                "serie": "A"
+            },
+            {
+                "local": "ÁGUILAS DEL MOTILÓN",
+                "visitante": "ATLÉTICO S.F",
+                "resultado": "4 - 5",
+                "hora": "16:00 pm",
+                "serie": "B"
+            }
+        ]
+    },
+    {
+        "jornada": "Fecha 3",
+        "fecha": "Sábado 16/08/2025",
+        "partidos": [
+            {
+                "local": "ATLÉTICO S.F",
+                "visitante": "LOS CAPOS",
+                "resultado": "2 - 3",
+                "hora": "12:00 am",
+                "serie": "B"
             },
             {
                 "local": "MILAN",
-                "visitante": "4 DKADAS",
-                "resultado": "6 - 5",
+                "visitante": "ÁGUILAS DEL PALMAR",
+                "resultado": "1 - 3",
+                "hora": "14:00 pm",
+                "serie": "A"
+            },
+            {
+                "local": "SOLO PANAS",
+                "visitante": "ESTRELLA JUVENIL",
+                "resultado": "4 - 1",
                 "hora": "16:00 pm",
-                "serie": null
+                "serie": "A"
             }
         ]
-    }
+    },
+    {
+        "jornada": "Fecha 3",
+        "fecha": "Domingo 17/08/2025",
+        "partidos": [
+            {
+                "local": "ATHLETICO SAN RAFAEL",
+                "visitante": "C.D MONTE OLIVO",
+                "resultado": "1 - 2",
+                "hora": "12:00 am",
+                "serie": "A"
+            },
+            {
+                "local": "INDEPENDIENTE S.R",
+                "visitante": "ÁGUILAS DEL MOTILÓN",
+                "resultado": "4 - 5",
+                "hora": "14:00 pm",
+                "serie": "B"
+            },
+            {
+                "local": "4 DKADAS",
+                "visitante": "SAN JOSÉ",
+                "resultado": "0 - 4",
+                "hora": "16:00 pm",
+                "serie": "B"
+            }
+        ]
+    } 
 ]
