@@ -1,49 +1,49 @@
 [
     {
-        "jornada": "Fecha 9",
-        "fecha": "Sábado 31/05/2025",
+        "jornada": "Fecha 5",
+        "fecha": "Sábado 30/08/2025",
         "partidos": [
             {
-                "local": "ÁGUILAS DEL MOTILÓN",
-                "visitante": "SOLO PANAS",
+                "local": "SAN JOSÉ",
+                "visitante": "ÁGUILAS DEL MOTILÓN",
                 "hora": "12:00 am",
-                "serie": null
+                "serie": "B"
             },
             {
-                "local": "C.D. MONTE OLIVO",
-                "visitante": "ATHLETICO SAN RAFAEL",
+                "local": "ÁGUILAS DEL PALMAR",
+                "visitante": "C.D. MONTE OLIVO",
                 "hora": "14:00 pm",
-                "serie": null
+                "serie": "A"
             },
             {
-                "local": "ESTRELLA JUVENIL",
-                "visitante": "MILAN",
+                "local": "ATHLETICO SAN RAFAEL",
+                "visitante": "ESTRELLA JUVENIL",
                 "hora": "16:00 pm",
-                "serie": null
+                "serie": "A"
             }
         ]
     },
     {
-        "jornada": "Fecha 9",
-        "fecha": "Domingo 01/06/2025",
+        "jornada": "Fecha 5",
+        "fecha": "Domingo 31/08/2025",
         "partidos": [
             {
-                "local": "SAN JOSÉ",
-                "visitante": "ATLÉTICO S.F",
+                "local": "MILAN",
+                "visitante": "SOLO PANAS",
                 "hora": "12:00 am",
-                "serie": null
+                "serie": "A"
             },
             {
-                "local": "LOS CAPOS",
+                "local": "ATLÉTICO S.F",
                 "visitante": "4 DKADAS",
                 "hora": "14:00 pm",
-                "serie": null
+                "serie": "B"
             },
             {
-                "local": "ÁGUILAS DEL PALMAR",
-                "visitante": "INDEPENDIENTE S.R",
+                "local": "INDEPENDIENTE S.R",
+                "visitante": "LOS CAPOS",
                 "hora": "16:00 pm",
-                "serie": null
+                "serie": "B"
             }
         ]
     }

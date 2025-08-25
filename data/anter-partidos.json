@@ -1,7 +1,7 @@
 [
     {
         "jornada": "Fecha 1",
-        "fecha": "Sábado 2/08/2025",
+        "fecha": "Sábado 02/08/2025",
         "partidos": [
             {
                 "local": "ATLÉTICO S.F",
@@ -160,5 +160,60 @@
                 "serie": "B"
             }
         ]
-    } 
+    },
+    {
+        "jornada": "Fecha 4",
+        "fecha": "Sábado 23/08/2025",
+        "partidos": [
+            {
+                "local": "INDEPENDIENTE S.R",
+                "visitante": "4 DKADAS",
+                "resultado": "3 - 0",
+                "hora": "12:00 am",
+                "serie": "B"
+            },
+            {
+                "local": "SAN JOSÉ",
+                "visitante": "ATLÉTICO S.F",
+                "resultado": "8 - 4",
+                "hora": "14:00 pm",
+                "serie": "A"
+            },
+            {
+                "local": "SOLO PANAS",
+                "visitante": "ATHLETICO SAN RAFAEL",
+                "resultado": "4 - 2",
+                "hora": "16:00 pm",
+                "serie": "A"
+            }
+        ]
+    },
+    {
+        "jornada": "Fecha 4",
+        "fecha": "Domingo 24/08/2025",
+        "partidos": [
+            
+            {
+                "local": "ESTRELLA JUVENIL",
+                "visitante": "ÁGUILAS DEL PALMAR",
+                "resultado": "2 - 2",
+                "hora": "12:00 pm",
+                "serie": "B"
+            },
+            {
+                "local": "C.D MONTE OLIVO",
+                "visitante": "MILAN",
+                "resultado": "3 - 0",
+                "hora": "14:00 am",
+                "serie": "A"
+            },
+            {
+                "local": "LOS CAPOS",
+                "visitante": "ÁGUILAS DEL MOTILÓN",
+                "resultado": "5 - 4",
+                "hora": "16:00 pm",
+                "serie": "B"
+            }
+        ]
+    }  
 ]

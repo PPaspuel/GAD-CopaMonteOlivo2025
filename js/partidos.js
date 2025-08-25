@@ -88,7 +88,7 @@ function mostrarFechas(fechas, tipo) {
                             <div class="hora-serie">
                                 ${partido.hora ? `<div class="hora">${partido.hora}</div>` : ''}
                                 ${partido.serie?.length > 0 ? 
-                                    `<div class="serie">Serie ${partido.serie.join(' - ')}</div>` : ''}
+                                    `<div class="serie">Serie ${partido.serie}</div>` : ''}
                             </div>
                         </div>
                     </div>
