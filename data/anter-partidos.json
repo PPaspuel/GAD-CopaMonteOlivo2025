@@ -215,5 +215,60 @@
                 "serie": "B"
             }
         ]
-    }  
+    },
+    {
+        "jornada": "Fecha 5",
+        "fecha": "Sábado 30/08/2025",
+        "partidos": [
+            {
+                "local": "SAN JOSÉ",
+                "visitante": "ÁGUILAS DEL MOTILÓN",
+                "resultado": "10 - 5",
+                "hora": "12:00 am",
+                "serie": "B"
+            },
+            {
+                "local": "ÁGUILAS DEL PALMAR",
+                "visitante": "C.D MONTE OLIVO",
+                "resultado": "3 - 3",
+                "hora": "14:00 pm",
+                "serie": "A"
+            },
+            {
+                "local": "ATHLETICO SAN RAFAEL",
+                "visitante": "ESTRELLA JUVENIL",
+                "resultado": "1 - 4",
+                "hora": "16:00 pm",
+                "serie": "A"
+            }
+        ]
+    },
+    {
+        "jornada": "Fecha 5",
+        "fecha": "Domingo 31/08/2025",
+        "partidos": [
+            
+            {
+                "local": "MILAN",
+                "visitante": "SOLO PANAS",
+                "resultado": "0 - 3",
+                "hora": "12:00 pm",
+                "serie": "A"
+            },
+            {
+                "local": "ATLÉTICO S.F",
+                "visitante": "4 DKADAS",
+                "resultado": "3 - 0",
+                "hora": "14:00 am",
+                "serie": "B"
+            },
+            {
+                "local": "INDEPENDIENTE S.R",
+                "visitante": "LOS CAPOS",
+                "resultado": "2 - 2",
+                "hora": "16:00 pm",
+                "serie": "B"
+            }
+        ]
+    } 
 ]

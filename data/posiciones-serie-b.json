@@ -1,11 +1,11 @@
 {
     "torneo": "SERIE B",
     "equipos": [
-        {"posicion": 1, "nombre": "SAN JOSÉ", "pj": 4, "pts": 10, "pg": 3, "pp": 0, "pe": 1, "gf": 19, "gc": 8, "dg": "+11"},
-        {"posicion": 2, "nombre": "LOS CAPOS", "pj": 4, "pts": 10, "pg": 3, "pp": 0, "pe": 1, "gf": 17, "gc": 13, "dg": "+4"},
-        {"posicion": 3, "nombre": "INDEPENDIENTE S.R", "pj": 4, "pts": 6, "pg": 2, "pp": 2, "pe": 0, "gf": 12, "gc": 11, "dg": "+1"},
-        {"posicion": 4, "nombre": "ÁGUILAS DEL MOTILÓN", "pj": 4, "pts": 6, "pg": 2, "pp": 2, "pe": 0, "gf": 17, "gc": 17, "dg": "0"},
-        {"posicion": 5, "nombre": "ATLÉTICO S.F", "pj": 4, "pts": 3, "pg": 1, "pp": 3, "pe": 0, "gf": 13, "gc": 19, "dg": "-6"},
-        {"posicion": 6, "nombre": "4 DKADAS", "pj": 4, "pts": 0, "pg": 0, "pp": 4, "pe": 0, "gf": 7, "gc": 17, "dg": "-10"}
+        {"posicion": 1, "nombre": "SAN JOSÉ", "pj": 5, "pts": 13, "pg": 4, "pp": 0, "pe": 1, "gf": 29, "gc": 13, "dg": "+16"},
+        {"posicion": 2, "nombre": "LOS CAPOS", "pj": 5, "pts": 11, "pg": 3, "pp": 0, "pe": 2, "gf": 19, "gc": 15, "dg": "+4"},
+        {"posicion": 3, "nombre": "INDEPENDIENTE S.R", "pj": 5, "pts": 7, "pg": 2, "pp": 2, "pe": 1, "gf": 14, "gc": 13, "dg": "+1"},
+        {"posicion": 4, "nombre": "ATLÉTICO S.F", "pj": 5, "pts": 6, "pg": 2, "pp": 3, "pe": 0, "gf": 16, "gc": 19, "dg": "-3"},
+        {"posicion": 5, "nombre": "ÁGUILAS DEL MOTILÓN", "pj": 5, "pts": 6, "pg": 2, "pp": 3, "pe": 0, "gf": 22, "gc": 27, "dg": "-5"},
+        {"posicion": 6, "nombre": "4 DKADAS", "pj": 5, "pts": 0, "pg": 0, "pp": 5, "pe": 0, "gf": 7, "gc": 20, "dg": "-13"}
     ]
 }

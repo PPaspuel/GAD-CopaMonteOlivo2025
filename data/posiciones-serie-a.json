@@ -1,12 +1,12 @@
 {
     "torneo": "SERIE A - FASE INICIAL",
     "equipos": [
-        {"posicion": 1, "nombre": "SOLO PANAS", "pj": 4, "pts": 12, "pg": 4, "pp": 0, "pe": 0, "gf": 20, "gc": 4, "dg": "+16"},
-        {"posicion": 2, "nombre": "ATHLETICO SAN RAFAEL", "pj": 4, "pts": 6, "pg": 2, "pp": 2, "pe": 0, "gf": 16, "gc": 8, "dg": "+8"},
-        {"posicion": 3, "nombre": "C.D MONTE OLIVO", "pj": 4, "pts": 6, "pg": 2, "pp": 2, "pe": 0, "gf": 5, "gc": 8, "dg": "-3"},
-        {"posicion": 4, "nombre": "ESTRELLA JUVENIL", "pj": 4, "pts": 4, "pg": 1, "pp": 2, "pe": 1, "gf": 7, "gc": 12, "dg": "-5"},
-        {"posicion": 5, "nombre": "ÁGUILAS DEL PALMAR", "pj": 4, "pts": 4, "pg": 1,"pp": 2, "pe": 1, "gf": 7, "gc": 12, "dg": "-5"},
-        {"posicion": 6, "nombre": "MILAN", "pj": 4, "pts": 3, "pg": 1, "pp": 3, "pe": 0, "gf": 8, "gc": 19, "dg": "-11"}
+        {"posicion": 1, "nombre": "SOLO PANAS", "pj": 5, "pts": 15, "pg": 5, "pp": 0, "pe": 0, "gf": 23, "gc": 4, "dg": "+19"},
+        {"posicion": 2, "nombre": "ESTRELLA JUVENIL", "pj": 5, "pts": 7, "pg": 2, "pp": 2, "pe": 1, "gf": 11, "gc": 13, "dg": "-2"},
+        {"posicion": 3, "nombre": "C.D MONTE OLIVO", "pj": 5, "pts": 7, "pg": 2, "pp": 2, "pe": 1, "gf": 8, "gc": 11, "dg": "-3"},
+        {"posicion": 4, "nombre": "ATHLETICO SAN RAFAEL", "pj": 5, "pts": 6, "pg": 2, "pp": 3, "pe": 0, "gf": 17, "gc": 12, "dg": "+5"},
+        {"posicion": 5, "nombre": "ÁGUILAS DEL PALMAR", "pj": 5, "pts": 5, "pg": 1,"pp": 2, "pe": 2, "gf": 10, "gc": 15, "dg": "-5"},
+        {"posicion": 6, "nombre": "MILAN", "pj": 5, "pts": 3, "pg": 1, "pp": 4, "pe": 0, "gf": 8, "gc": 22, "dg": "-14"}
     ]
 }
 
